@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+  
+<!-- Mirrored from zyan.vercel.app/index_rtl.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 14 May 2025 17:54:01 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1, minimum-scale=1, target-densitydpi=device-dpi"
+    />
+    <title>ZYAN - Personal Portfolio HTML Template</title>
+    <link rel="icon" type="image/png" href="images/favicon.png" />
+    <link rel="stylesheet" href="css/font-awesome-pro.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/scroll_button.css" />
+    <link rel="stylesheet" href="css/plugin.css" />
+    <link rel="stylesheet" href="css/spacing.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+    <link rel="stylesheet" href="css/rtl.css" />
+  </head>
+
+  <body>
+    <!--================================
+        PRELOADER START
+    =================================-->
+    <!-- <div class="preloader">
+      <svg viewBox="0 0 1000 1000" preserveAspectRatio="none">
+        <path id="svg" d="M0,1005S175,995,500,995s500,5,500,5V0H0Z"></path>
+      </svg>
+      <h5 class="preloader-text">Loading</h5>
+    </div> -->
+    <!--================================
+        PRELOADER END
+    =================================-->
+    <!--================================
+        MENU START
+    =================================-->
+    <nav dir="rtl" class="navbar navbar-expand-lg main_menu transparent-navbar fixed-top">
+      <div class="container ">
+        <a class="navbar-brand" href="index.html">
+          <img style="padding-top: 15px;" src="images/logo5.jpg" alt="ZYAN" class="img-fluid w-100" />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <i class="fa-sharp fa-regular fa-bars bar_icon"></i>
+          <i class="fa-regular fa-xmark close_icon"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav m-auto">
+            <li class="nav-item">
+              <a class="nav-link text_hover_animaiton active" href="#"
+                >بيت <i class="far fa-angle-down"></i
+              ></a>
+              <ul class="droap_menu">
+                <li><a href="index.html">الصفحة الرئيسية 1</a></li>
+                <li><a href="index_2.html">الصفحة الرئيسية 2</a></li>
+                <li><a href="index_3.html">الصفحة الرئيسية 3</a></li>
+                <li><a href="index_4.html">الصفحة الرئيسية 4</a></li>
+                <li><a href="index_rtl.html">الصفحة الرئيسية رتل</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text_hover_animaiton" href="#">معلومات عنا</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text_hover_animaiton" href="#service"
+                >خدمات
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text_hover_animaiton" href="#projects"
+                >المشاريع
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text_hover_animaiton" href="blog_list.html"
+                >مدونة <i class="far fa-angle-down"></i
+              ></a>
+              <ul class="droap_menu">
+                <li>
+                  <a href="blog_list.html">قائمة المدونات</a>
+                </li>
+                <li><a href="blog_details.html">تفاصيل المدونة</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text_hover_animaiton" href="contact.html"
+                >اتصال
+              </a>
+            </li>
+          </ul>
+          <!-- <span
+            class="toggle_icon c-pointer"
+            data-bs-toggle="offcanvas"
+            data-bs-target="#offcanvasRight"
+            aria-controls="offcanvasRight"
+            ><i
+              class="fa-sharp fa-sharp fa-regular fa-bars bar_icon-staggered"
+            ></i
+          ></span> -->
+        </div>
+      </div>
+    </nav>
+
+    <div
+      dir="rtl"
+      class="offcanvas offcanvas-end"
+      tabindex="-1"
+      id="offcanvasRight"
+    >
+      <div class="offcanvas-header">
+        <a class="offcanvas-logo" href="index_2.html">
+          <img src="images/logo2.png" alt="ZAYAN" class="img-fluid w-100" />
+        </a>
+        <button
+          type="button"
+          class="btn-close"
+          data-bs-dismiss="offcanvas"
+          aria-label="Close"
+        >
+          <i class="fa-regular fa-xmark"></i>
+        </button>
+      </div>
+      <div class="offcanvas-body">
+        <div class="tf__design_form offcanvas_form">
+          <div class="offcanvas-content-box">
+            <h4 class="offcanvas_title">معلومات عنا</h4>
+            <p>
+              لوريم إيبسوم دولور سيت أميت، كونسيكتور إيليت، سد دو إيوسمود وقوع
+              حادث مؤقت في العمل وماجنا بعض. احصل على الحد الأدنى فينيام
+              لابوريس.
+            </p>
+          </div>
+          <div class="offcanvas_contact_form">
+            <h4 class="offcanvas_title">ابقى على تواصل</h4>
+            <form action="#">
+              <input
+                type="text"
+                placeholder="Your Name"
+                aria-autocomplete="list"
+              />
+              <input type="email" placeholder="Your Email" />
+              <textarea rows="4" placeholder="Message"></textarea>
+              <button type="submit" class="common_btn">يقدم الآن</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--================================
+        MENU END
+    =================================-->
+  <!--================================
+        BREADCRUMB START
+    =================================-->
+    <section
+      class="tf__breadcrumb banner"
+      style="background: url(images/bg/breadcrumb.jpg)"
+    >
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="tf__breadcrum_text">
+              <h1>داخل قصتنا</h1>
+              <ul class="page-breadcrumb">
+                <li>
+                  <a href="index.html" class="text_hover_animaiton">بيت</a>
+                </li>
+                <li>داخل قصتنا</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--================================
+        BREADCRUMB END
+    =================================-->
+
+  
+      <!--================================
+        ABOUT START
+    =================================-->
+    <section style="background: black;" class="tf__about pt_140 xs_pt_80" id="about">
+      <div class="container">
+        <div class="row justify-content-between">
+          <div class="col-xxl-7 col-lg-6 col-xl-6">
+            <div class="tf__section_heading pb_80 xs_pb_50">
+              <h5 style="color: white;" class="has-animation">نبذة عنا</h5>
+              <h2 style="color: white;" class="has-animation">قصتنا</h2>
+            </div>
+            <div>
+              <p style="color: white;">
+                <b>إرث من التميز والمساهمة المجتمعية</b>
+شركة كومبو للتموين هي إحدى الشركات التابعة لمجموعة دار جبهان للتجارة، وهي مجموعة بارزة منذ عام 1999 في مجال توريد المواد الغذائية بالجملة والتجزئة في المملكة العربية السعودية.
+
+نحن نتمتع بخبرة عميقة في هذا المجال ونتعامل مع جميع الشركات متعددة الجنسيات في معظم المشاريع الوطنية الكبرى في المملكة. نحن شركة رائدة في تجارة المواد الغذائية والمشروبات والخضروات الطازجة والفواكه والأطعمة المجمدة بالجملة. لدينا شبكة واسعة منتشرة في جميع أنحاء المملكة مع خدمة توصيل من الباب إلى الباب على مدار الساعة طوال أيام الأسبوع.
+
+جبهان مارت هو منفذ بيع تجزئة تابع لشركة دار جبهان للتجارة، يتميز بمعايير جودة وأداء عالمية. يعد مركزًا احترافيًا بالكامل لبيع المنتجات العربية والآسيوية والأفريقية والأوروبية، بالإضافة إلى المواد الغذائية العامة والحلويات والمخبوزات والوجبات الخفيفة والمشروبات الغازية والمنتجات الاستهلاكية.
+
+الآن، تقدم شركة كومبو للتموين خدماتها عالية الجودة في جميع أنحاء المملكة.              </p>
+            
+            </div>
+          </div>
+          <div class="col-xxl-4 col-lg-6 col-xl-6">
+            <div class="tf__about_img fade_right" data-trigerId="about">
+              <img
+                src="images/imageabout.jpg"
+                alt="img"
+                class="img-fluid w-100"
+              />
+              <!-- <div class="tf__about_img_text">
+                <i class="fas fa-chart-pie-alt"></i>
+                <div class="tf__about_content">
+                  <h4>النشاط اليومي</h4>
+                  <p>لوريم هو الإسلام</p>
+                </div>
+              </div> -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+      <section class="tf__testimonial  xs_pt_25">
+      <div class="container">
+        <div class="row">
+          <div class="col-xl-8 m-auto">
+            <div class="tf__section_heading">
+              <h5 class="has-animation">
+رسالة الرئيس التنفيذي                </h5>
+             
+            </div>
+          </div>
+        </div>
+        <div class="row testi_slider" dir="rtl">
+          <div class="col-xl-6">
+            <div class="tf__single_testimonial">
+             
+              <p class="rating">
+                <i class="fa-solid fa-star-sharp"></i>
+                <i class="fa-solid fa-star-sharp"></i>
+                <i class="fa-solid fa-star-sharp"></i>
+                <i class="fa-solid fa-star-sharp"></i>
+                <i class="fa-solid fa-star-sharp"></i>
+              </p>
+              
+              <p style="color: white;">
+                استكمالاً لرسالة شركتنا الأم في خدمة المجتمع. تواصل شركة كومبو للتموين التزامها الثابت بتقديم خدمات عالية الجودة والمطابقة لأعلى معايير السلامة، نواصل الحفاظ على أعلى المعايير الأخلاقية من خلال الابتكار والتحسين المستمر لتلبية متطلبات الصناعة، معتمدين على أفضل الممارسات، أعمق الخبرات، والالتزام الاجتماعي.
+
+<br>
+<b>كشركة مسؤولة تركز على الأفراد، يدفع هذا فريق عملنا على تقديم أداء عالي والمساهمة المستمرة في تحقيق التحول الوطني للمملكة. طوال مسيرتنا المليئة بالإنجازات، نقدر شركاءنا، عملاءنا، والمملكة العربية السعودية.</b>
+
+              </p>
+            </div>
+          </div>
+         
+        </div>
+      </div>
+    </section>
+   
+
+    <!--================================
+        FOOTER START
+    =================================-->
+    <footer class="footer" id="footer">
+      <div class="footer-container">
+        <div class="pt_120 xs_pt_80 sm_pt_80">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-4">
+                <div
+                  class="tf__footer_content fade_right"
+                  data-trigerId="footer"
+                  data-stagger=".25"
+                >
+                  <div class="icon">
+                    <div class="icon-contianer">
+                      <img
+                        src="svg/map.svg"
+                        alt="footer"
+                        class="img-fluid w-100 svg"
+                      />
+                    </div>
+                  </div>
+                  <div class="text">
+                    <h3>عنوان</h3>
+                    <p>2118 ثورنريدج سير. سيراكيوز، كونيتيكت 35624</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4">
+                <div
+                  class="tf__footer_content fade_right"
+                  data-trigerId="footer"
+                  data-stagger=".25"
+                >
+                  <div class="icon">
+                    <div class="icon-contianer">
+                      <img
+                        src="svg/phone.svg"
+                        alt="footer"
+                        class="img-fluid w-100 svg"
+                      />
+                    </div>
+                  </div>
+                  <div class="text">
+                    <h3>دعونا نتحدث معنا</h3>
+                    <a href="callto:1234567890">(603) 555-0123</a>
+                    <a href="callto:1234567890">(603) 555-0123</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4">
+                <div
+                  class="tf__footer_content fade_right"
+                  data-trigerId="footer"
+                  data-stagger=".25"
+                >
+                  <div class="icon">
+                    <div class="icon-contianer">
+                      <img
+                        src="svg/envelope.svg"
+                        alt="footer"
+                        class="img-fluid w-100 svg"
+                      />
+                    </div>
+                  </div>
+                  <div class="text">
+                    <h3>أرسل لنا البريد الإلكتروني</h3>
+                    <a href="mailto:example@gmail.com"
+                      >deanna.curtis@example.com</a
+                    >
+                    <a href="mailto:example@gmail.com">curtis@example.com</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-12">
+                <div class="tf__footer_copyright">
+                  <p>© CodeeFly 2023 | كل الحقوق محفوظة</p>
+                  <ul>
+                    <li>
+                      <a href="#" class="text_hover_animaiton"
+                        >الترام والحالة</a
+                      >
+                    </li>
+                    <li>
+                      <a href="#" class="text_hover_animaiton"
+                        >سياسة الخصوصية</a
+                      >
+                    </li>
+                    <li>
+                      <a href="#" class="text_hover_animaiton">خريطة الموقع</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!--================================
+  FOOTER END
+=================================-->
+    <!--================================
+        SCROLL BUTTON START
+    =================================-->
+    <div class="progress active c-pointer">
+      <svg
+        class="progress-svg"
+        width="100%"
+        height="100%"
+        viewBox="-1 -1 102 102"
+      >
+        <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98"></path>
+      </svg>
+    </div>
+    <!--================================
+        SCROLL BUTTON END
+    =================================-->
+
+    <!--================================
+        CURSOR START
+    =================================-->
+    <div id="magic-cursor">
+      <div id="ball"></div>
+    </div>
+    <!--================================
+        CURSOR END
+    =================================-->
+
+    <script src="js/plugin.js"></script>
+    <!--scroll button js-->
+    <script src="js/scroll_button.js"></script>
+    <!--sticky sidebar js-->
+    <script src="js/sticky_sidebar.js"></script>
+    <!-- Animation -->
+    <script src="js/animation.js"></script>
+    <!--main/custom js-->
+    <script src="js/main.js"></script>
+  </body>
+
+<!-- Mirrored from zyan.vercel.app/index_rtl.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 14 May 2025 17:54:02 GMT -->
+</html>

@@ -9,7 +9,7 @@
       name="viewport"
       content="width=device-width, initial-scale=1.0, maximum-scale=1, minimum-scale=1, target-densitydpi=device-dpi"
     />
-    <title>ZYAN - Personal Portfolio HTML Template</title>
+    <title>CATERING SERVICE</title>
     <link rel="icon" type="image/png" href="images/favicon.png" />
     <link rel="stylesheet" href="css/font-awesome-pro.css" />
     <link rel="stylesheet" href="css/bootstrap.min.css" />
@@ -18,6 +18,7 @@
     <link rel="stylesheet" href="css/spacing.css" />
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/responsive.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
   </head>
 
   <body>
@@ -36,11 +37,76 @@
     <!--================================
         MENU START
     =================================-->
+
+    <nav class="navbar navbar-expand-lg main_menu transparent-navbar fixed-top">
+  <div class="container">
+    <a class="navbar-brand custom-logo" href="index.html">
+      <img style="padding-top: 15px;" src="images/logo5.jpg" alt="ZYAN" class="img-fluid" />
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+      data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+      aria-label="Toggle navigation">
+      <i class="fa fa-bars"></i>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+     <ul class="navbar-nav m-auto">
+            <li class="nav-item">
+              <a class="nav-link text_hover_animaiton active" href="#"
+                >Home <i class="far fa-angle-down"></i
+              ></a>
+              <ul class="droap_menu">
+                <li><a href="index.html">Home 1</a></li>
+                <li><a href="index_2.html">Home 2</a></li>
+                <li><a href="index_3.html">Home 3</a></li>
+                <li><a href="index_4.html">Home 4</a></li>
+                <li><a href="index_rtl.html">Home RTL</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text_hover_animaiton" href="#about"
+                >about us</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text_hover_animaiton" href="#service"
+                >services
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text_hover_animaiton" href="#projects"
+                >Projects
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text_hover_animaiton" href="blog_list.html"
+                >blog <i class="far fa-angle-down"></i
+              ></a>
+              <ul class="droap_menu">
+                <li>
+                  <a href="blog_list.html">Blog List</a>
+                </li>
+                <li><a href="blog_details.html">Blog Details</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text_hover_animaiton" href="contact.html"
+                >contact
+              </a>
+            </li>
+          </ul>
+      <!-- <span class="toggle_icon c-pointer" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight"
+        aria-controls="offcanvasRight">
+        <i class="fa fa-bars"></i>
+      </span> -->
+    </div>
+  </div>
+</nav>
+
    
-    <nav class="navbar navbar-expand-lg main_menu">
+    <!-- <nav class="navbar navbar-expand-lg main_menu">
       <div class="container main_menu_bg">
         <a class="navbar-brand" href="index.html">
-          <img src="images/logo-1.jpg" alt="ZYAN" class="img-fluid w-100" />
+          <img src="images/logo5.jpg" alt="ZYAN" class="img-fluid w-100" />
         </a>
         <button
           class="navbar-toggler"
@@ -111,12 +177,12 @@
           ></span>
         </div>
       </div>
-    </nav>
+    </nav> -->
 
     <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight">
       <div class="offcanvas-header">
         <a class="offcanvas-logo" href="index_2.html">
-          <img src="images/logo2.png" alt="ZAYAN" class="img-fluid w-100" />
+          <img src="images/logo5.png" alt="ZAYAN" class="img-fluid w-100" />
         </a>
         <button
           type="button"
@@ -161,162 +227,94 @@
         BANNER START
     =================================-->
     <section
-      class="tf__banner banner"
-      style="background: url(images/bg/banner.jpg)"
-    >
+      class="tf__banner banner low-light-banner"
+    style="
+    background: linear-gradient(rgba(0, 0, 0, 1.5), rgba(0, 0, 0, 0.5)), url(images/banner-2.jpg);
+    background-size: cover;
+    background-position: center;
+  "
+>
       <div class="container">
         <div class="row justify-content-between">
           <div class="col-xl-6 col-lg-8">
             <div class="tf__banner_text">
-              <h1>
-                Exceptional Catering Services
+              <h1 class=" fade_left wow fadeInUp"  data-wow-delay=".2s" style=" color: white;     font-family: var(--font-primary);  visibility: visible; animation-duration: 1s; animation-delay: 0.2s; animation-name: fadeInUp;">
+                Exceptional Catering <span class="fade_left">Services </span> 
                 
               </h1>
-              <h3>Crafting Culinary Excellence Across Industries
-</h3> <br>
-              <p>
+              <h3 class="fade_left" style="color: white;">
+                Crafting Culinary Excellence Across Industries
+</h3> 
+              <h6 class="fade_left" style=" color: white;    font-family: var(--font-primary);">
                Tailored catered solutions for hospitality, business, education, defense, and government sectors. Expectational Hospitality – forging lasting partnerships.
-              </p>
+              </h6>
               <ul>
                 <li>
-                  <a class="common_btn" href="#"
-                    >Get Started <i class="fa-solid fa-arrow-down-to-line"></i
+                  <a class="common_btn" style=" border-radius:6px; font-family: var(--font-primary);" href="#"
+                    >Get Started <i class="fa-solid fa-arrow-down"></i
                   ></a>
                 </li>
                
               </ul>
             </div>
           </div>
-          <div class="col-xl-5 col-lg-4">
+          <!-- <div class="col-xl-5 col-lg-4">
             <div class="tf__banner_img">
               <div class="img">
                 <img
-                  src="images/banner_img_1.png"
+                  src="images/banner2.jpg"
                   alt="ZYAN"
                   class="img-fluid w-100"
                 />
               </div>
             </div>
-          </div>
+          </div> -->
         </div>
       </div>
     </section>
     <!--================================
         BANNER END
     =================================-->
-    <!--================================
-        SERVICE START
-    =================================-->
-    <section class="tf__service pt_130 xs_pt_80" id="service">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-9 m-auto">
-            <div class="tf__section_heading mb_40">
-              <h5 class="has-animation">MY serivce</h5>
-              <h2 class="has-animation">
-                Crafting stories through <br />
-                design and innovation
-              </h2>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-lg-4 col-md-6">
-            <div class="tf__single_service fade_left" data-trigerId="service">
-              <span>
-                <img
-                  src="svg/website-design.svg"
-                  alt="service"
-                  class="svg w-100"
-                />
-              </span>
-              <h3>Website Design</h3>
-              <p>
-                Nemo design enim ipsam voluptatem quim voluptas sit aspernatur
-                aut odit auting fugit sed thisnquia consequuntur magni dolores
-                eos designer heresm qui
-              </p>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6">
-            <div class="tf__single_service fade_left" data-trigerId="service">
-              <span>
-                <img
-                  src="svg/logo-design.svg"
-                  alt="service"
-                  class="svg w-100"
-                />
-              </span>
-              <h3>Logo Design</h3>
-              <p>
-                Nemo design enim ipsam voluptatem quim voluptas sit aspernatur
-                aut odit auting fugit sed thisnquia consequuntur magni dolores
-                eos designer heresm qui
-              </p>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6">
-            <div class="tf__single_service fade_left" data-trigerId="service">
-              <span>
-                <img
-                  src="svg/app-development.svg"
-                  alt="service"
-                  class="svg w-100"
-                />
-              </span>
-              <h3>Apps Development</h3>
-              <p>
-                Nemo design enim ipsam voluptatem quim voluptas sit aspernatur
-                aut odit auting fugit sed thisnquia consequuntur magni dolores
-                eos designer heresm qui
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!--================================
-        SERVICE END
-    =================================-->
 
-    <!--================================
+     <!--================================
         ABOUT START
     =================================-->
-    <section class="tf__about pt_140 xs_pt_80" id="about">
+    <section style="background: black;" class="tf__about pt_140 xs_pt_80" id="about">
       <div class="container">
         <div class="row justify-content-between">
           <div class="col-xxl-7 col-lg-6 col-xl-6">
-            <div class="tf__section_heading pb_80 xs_pb_50">
-              <h5 class="has-animation">About Me</h5>
-              <h2 class="has-animation">
-                Transforming visions into exceptional portfolios
+            <div class="tf__section_heading pb_50 xs_pb_50">
+              <h5 style="color: white;" class="has-animation">About </h5>
+              <h2 style="color: white;" class="has-animation">
+               Our Story
               </h2>
             </div>
-            <div class="tf__about_text">
-              <p>
-                Nemo design enim ipsam voluptatem quim voluptas sit aspernatur
-                aut odit auting fugit sed thisnquia consequuntur magni dolores
-                eos designer heresm qui ratione
+            <div>
+              <p class="fade_left" style="color: white;">
+              <b > Legacy of Excellence and Community Engagement</b>
+Combo Catering Company, based in Saudi Arabia since 2001, offers exquisite catering services tailored for various sectors including hospitality, business, construction, education, defense, and government entities.
+
               </p>
-              <a class="common_btn" href="#"
-                >Download Cv <i class="fa-solid fa-arrow-down-to-line"></i
+              <a style="background: #9bcc5b; border-radius: 7px; margin-top: 20px;" class="common_btn" href="#"
+                >Read More</i
               ></a>
             </div>
           </div>
           <div class="col-xxl-4 col-lg-6 col-xl-6">
             <div class="tf__about_img fade_right" data-trigerId="about">
               <img
-                src="images/about_img.jpg"
+              style="border-radius: 7px;"
+                src="images/imageabout.jpg"
                 alt="ZYAN"
                 class="img-fluid w-100"
               />
-              <div class="tf__about_img_text">
+              <!-- <div class="tf__about_img_text">
                 <i class="fas fa-chart-pie-alt"></i>
                 <div class="tf__about_content">
                   <h4>Daily Activity</h4>
                   <p>Loream is ispam</p>
                 </div>
-              </div>
+              </div> -->
             </div>
           </div>
         </div>
@@ -326,23 +324,219 @@
         ABOUT END
     =================================-->
 
+   <!--================================
+        BLOG START
+    =================================-->
+    <section class="tf__blog pt_125 xs_pt_75 pb_40 xs_pb_0" id="blogs">
+      <div class="container">
+        <div class="row">
+          <div class="col-xl-8 col-lg-9 mb_30">
+            <div class="tf__section_heading tf__banner_text">
+              <h5 class="has-animation">Our Offerings</h5>
+              <h1 class="has-animation">
+                Tailored High-end Catering <span> Solutions</span> 
+              </h1>
+              <p style="color: white; margin: 0px;">Providing a diverse array of premium catering services to lead the industry.</p>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-xl-4 col-md-6">
+            <div class="tf__slingle_blog fade_left" data-trigerId="blogs">
+              <a
+                href="blog_details.html"
+                class="tf__blog_img"
+                data-cursor="read <br> more"
+              >
+                <img
+                  src="images/hospital.jpg"
+                  alt="hospitality"
+                  class="img-fluid w-100"
+                />
+              </a>
+              <div class="tf__blog_text">
+                <ul>
+                  <li>
+                  </li>
+                  <li>
+                  </li>
+                </ul>
+                <a href="blog_details.html"
+                  >Hospitality</a
+                >
+                <p style="text-wrap:no-wrap ;">Elegant dining experiences for hotels and events</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-4 col-md-6">
+            <div class="tf__slingle_blog fade_left" data-trigerId="blogs">
+              <a
+                href="blog_details.html"
+                class="tf__blog_img"
+                data-cursor="read <br> more"
+              >
+                <img
+                  src="images/buisness.jpg"
+                  alt="blog"
+                  class="img-fluid w-100"
+                />
+              </a>
+              <div class="tf__blog_text">
+                <ul>
+                  <li>
+                  </li>
+                  <li>
+                  </li>
+                </ul>
+                <a href="blog_details.html"
+                  >Business</a
+                  
+                >
+                <p>Professional catering for corporate functions</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-4 col-md-6">
+            <div class="tf__slingle_blog fade_left" data-trigerId="blogs">
+              <a
+                href="blog_details.html"
+                class="tf__blog_img"
+                data-cursor="read <br> more"
+              >
+                <img
+                  src="images/education.jpg"
+                  alt="blog"
+                  class="img-fluid w-100"
+                />
+              </a>
+              <div class="tf__blog_text">
+                <ul>
+                  <li>
+                  </li>
+                  <li>
+                  </li>
+                </ul>
+                <a href="blog_details.html"
+                  >Construction</a
+                >
+                <p>On-site catering for construction projects</p>
+              </div>
+            </div>
+          </div>
+         
+        </div>
+      </div>
+    </section>
+    <!--================================
+        BLOG END
+    =================================-->
+    <!--================================
+        SERVICE START
+    =================================-->
+    <section class="tf__service pt_130 xs_pt_25" id="service">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-9 m-auto">
+            <div class="tf__section_heading mb_40">
+              <h5 style="color: white;" class="has-animation"> Serivces</h5>
+              <h2 style="color: white;" class="has-animation">
+                Catering for Every <h2 style="color: #aad337;">Occasion</h2>  
+              </h2>
+            </div>
+          </div>
+        </div>
+       <div class="row">
+  <!-- Hospitality -->
+  <div class="col-lg-3 col-md-6 mb-4">
+    <div class="fade_left" style="background-color: #1c1c1c; border-radius: 16px; overflow: hidden; color: #fff;">
+      <img src="images/service2.jpg" alt="Hospitality" style="width: 100%; display: block;" />
+      <div style="padding: 20px;">
+        <h3 style="text-align: center;">Hospitality</h3>
+        <p style="color: #ccc; text-align: center;">
+          Our hospitality catering service offers exquisite menus and impeccable service to elevate any hotel stay or event, creating memorable experiences for guests.
+        </p>
+      </div>
+    </div>
+  </div>
+
+ 
+
+  <!-- Business -->
+  <div class="col-lg-3 col-md-6 mb-4">
+    <div class="fade_left" style="background-color: #1c1c1c; border-radius: 16px; overflow: hidden; color: #fff;">
+      <img src="images/banner-2.jpg" alt="Business" style="width: 100%; display: block;" />
+      <div style="padding: 20px;">
+        <h3 style="text-align: center;" >Business</h3>
+        <p style="color: #ccc; text-align: center;">
+          For business events and meetings, our catering service provides delicious cuisine and seamless delivery, enhancing the success of any corporate gathering.
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Construction -->
+  <div class="col-lg-3 col-md-6 mb-4">
+    <div style="background-color: #1c1c1c; border-radius: 16px; overflow: hidden; color: #fff;">
+      <img src="/images/banner3.jpg" alt="Construction" style="width: 100%; display: block;" />
+      <div style="padding: 20px;">
+        <h3 style="text-align: center;" >Construction</h3>
+        <p style="color: #ccc; text-align: center;">
+          We specialize in on-site catering for construction teams, offering hearty meals that fuel productivity and support the hard work taking place on construction sites.
+        </p>
+      </div>
+    </div>
+  </div>
+
+   <!-- Education -->
+  <div class="col-lg-3 col-md-6 mb-4">
+    <div class="fade_left" style="background-color: #1c1c1c; border-radius: 16px; overflow: hidden; color: #fff;">
+      <img src="images/service1.jpg" alt="education" style="width: 100%; display: block;" />
+      <div style="padding: 20px;">
+        <h3 style="text-align: center;" >Education</h3>
+        <p style="color: #ccc; text-align: center;">
+Our education catering services cater to schools and institutions, providing nutritious meals that support learning and development among students and faculty        </p>
+      </div>
+    </div>
+  </div>
+</div>
+
+      </div>
+    </section>
+    <!--================================
+        SERVICE END
+    =================================-->
+
+  
+   
+
     <!--================================
         DESIGN START
     =================================-->
     <section class="tf__design mt_135 xs_mt_40 mb_120 xs_mb_80" id="counter">
       <div class="container">
         <div class="row">
+           <div class="col-xl-6 col-lg-6">
+            <div class="">
+              <img src="images/vision.jpg" alt="">
+            </div>
+          </div>
           <div class="col-xl-6 col-lg-6">
             <div class="tf__design_text">
-              <h2>Design <span>and Innovation</span></h2>
-              <p class="">
-                Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit
-                auting fugit sed thisnquia consequuntur magni dolores eos
-                designer heresm qui ratione voluptatem sequi nesciuNeque porro
-                quisquam est, oursqui dolorem ipsum quia dolor sit amet
-                consectetur, adipisci velit, sed quia non numquam
+              <h2>Vision <span>and <span style="color: #aad337;">Value </span> </span></h2>
+              <p style="color: white;">
+               Catering service is not just a business for <b>COMBO CATERING</b>  – it’s our passion.
+
+We take pride in our unwavering commitment to delivering top-tier customer service, entrust us for your hospitality and catering needs ensures a tailored approach designed to meet the unique demands of your industry with precision and excellence. 
+Over the years we delivering quality and reliability, it making us premium brand in the field. It is our moto- people the key to our overall success. And committed efforts of our employees that has enabled us to create excellence for over three decades.
+
+
               </p>
             </div>
+            <br>
+            <p style="color: white;">  At <b>Combo Catering Company</b> ,
+               our core values of integrity, innovation, and excellence guide everything we do. We are committed to upholding the highest standards of service, quality, and professionalism in the catering industry.
+
+</p>
             <div class="row">
               <div class="col-xl-6 col-md-6">
                 <div
@@ -356,8 +550,8 @@
                       class="svg img-fluid w-100"
                     />
                   </span>
-                  <h3><span class="counter">10</span>k+</h3>
-                  <p>Complete project</p>
+                  <h3><span class="counter">100</span>k+</h3>
+                  <p>Customer Already </p>
                 </div>
               </div>
               <div class="col-xl-6 col-md-6">
@@ -373,27 +567,12 @@
                     />
                   </span>
                   <h3><span class="counter">800</span>+</h3>
-                  <p>Client review</p>
+                  <p>Customer review</p>
                 </div>
               </div>
             </div>
           </div>
-          <div class="col-xl-6 col-lg-6">
-            <div class="tf__design_form">
-              <h2 class="has-animation">GET TOUCH ME?</h2>
-              <p class="">
-                For your car we will do everything advice design in us repairs
-                and maintenance We are the some preferred.
-              </p>
-              <form action="#">
-                <input class="" type="text" placeholder="Your Name" />
-                <input class="" type="email" placeholder="Your Email" />
-                <input class="" type="text" placeholder="Phone Number" />
-                <textarea class="" rows="4" placeholder="Message"></textarea>
-                <button type="submit" class="common_btn">submit now</button>
-              </form>
-            </div>
-          </div>
+         
         </div>
       </div>
     </section>
@@ -401,527 +580,244 @@
         DESIGN END
     =================================-->
 
-    <!--================================
-        SKILLS START
-    =================================-->
-    <section class="tf__skills pt_115 xs_pt_75 pb_70 xs_pb_30" id="skills">
-      <div class="container">
-        <div class="row">
-          <div class="col-xl-10 col-lg-8 m-auto mb_60">
-            <div class="tf__section_heading mb_40">
-              <h5 class="has-animation">Education & Skill</h5>
-              <h2 class="has-animation">
-                Showcasing your talent <br />
-                amplifying your impact
-              </h2>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-xl-6 col-lg-6">
-            <div
-              class="tf__single_skills fade_bottom"
-              data-trigerId="skills"
-              data-stagger=".13"
-            >
-              <span>2014 - 2018</span>
-              <h3>Wordpress and End Developer</h3>
-              <p>
-                Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit
-                aut fugit sed thisnquia consequuntur magni dolores eos qui
-                ratione voluptatem
-              </p>
-            </div>
-          </div>
-          <div class="col-xl-6 col-lg-6">
-            <div
-              class="tf__single_skills fade_bottom"
-              data-trigerId="skills"
-              data-stagger=".25"
-            >
-              <span>2012 - 2014</span>
-              <h3>Python Developer</h3>
-              <p>
-                Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit
-                aut fugit sed thisnquia consequuntur magni dolores eos qui
-                ratione voluptatem
-              </p>
-            </div>
-          </div>
-          <div class="col-xl-6 col-lg-6">
-            <div
-              class="tf__single_skills fade_bottom"
-              data-trigerId="skills"
-              data-stagger=".25"
-            >
-              <span>2005 - 2009</span>
-              <h3>Kent State University</h3>
-              <p>
-                Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit
-                aut fugit sed thisnquia consequuntur magni dolores eos qui
-                ratione voluptatem
-              </p>
-            </div>
-          </div>
-          <div class="col-xl-6 col-lg-6">
-            <div
-              class="tf__single_skills fade_bottom"
-              data-trigerId="skills"
-              data-stagger=".25"
-            >
-              <span>2009 - 2012</span>
-              <h3>User Experience Design</h3>
-              <p>
-                Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit
-                aut fugit sed thisnquia consequuntur magni dolores eos qui
-                ratione voluptatem
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-xl-6 col-lg-6">
-            <div
-              class="tf__team_skills_bar_single fade_bottom"
-              data-trigerId="skills"
-              data-stagger=".25"
-            >
-              <p>HTML</p>
-              <div id="bar1" class="barfiller">
-                <div class="tipWrap">
-                  <span class="tip"></span>
-                </div>
-                <span class="fill" data-percentage="75"></span>
-              </div>
-            </div>
-          </div>
-          <div class="col-xl-6 col-lg-6">
-            <div
-              class="tf__team_skills_bar_single fade_bottom"
-              data-trigerId="skills"
-              data-stagger=".25"
-            >
-              <p>Python</p>
-              <div id="bar2" class="barfiller">
-                <div class="tipWrap">
-                  <span class="tip"></span>
-                </div>
-                <span class="fill" data-percentage="90"></span>
-              </div>
-            </div>
-          </div>
-          <div class="col-xl-6 col-lg-6">
-            <div
-              class="tf__team_skills_bar_single fade_bottom"
-              data-trigerId="skills"
-              data-stagger=".25"
-            >
-              <p>CSS</p>
-              <div id="bar3" class="barfiller">
-                <div class="tipWrap">
-                  <span class="tip"></span>
-                </div>
-                <span class="fill" data-percentage="80"></span>
-              </div>
-            </div>
-          </div>
-          <div class="col-xl-6 col-lg-6">
-            <div
-              class="tf__team_skills_bar_single fade_bottom"
-              data-trigerId="skills"
-              data-stagger=".25"
-            >
-              <p>Photoshop</p>
-              <div id="bar4" class="barfiller">
-                <div class="tipWrap">
-                  <span class="tip"></span>
-                </div>
-                <span class="fill" data-percentage="70"></span>
-              </div>
-            </div>
-          </div>
-          <div class="col-xl-6 col-lg-6">
-            <div
-              class="tf__team_skills_bar_single fade_bottom"
-              data-trigerId="skills"
-              data-stagger=".25"
-            >
-              <p>Java Script</p>
-              <div id="bar5" class="barfiller">
-                <div class="tipWrap">
-                  <span class="tip"></span>
-                </div>
-                <span class="fill" data-percentage="70"></span>
-              </div>
-            </div>
-          </div>
-          <div class="col-xl-6 col-lg-6">
-            <div
-              class="tf__team_skills_bar_single fade_bottom"
-              data-trigerId="skills"
-              data-stagger=".25"
-            >
-              <p>Figma</p>
-              <div id="bar6" class="barfiller">
-                <div class="tipWrap">
-                  <span class="tip"></span>
-                </div>
-                <span class="fill" data-percentage="80"></span>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!--================================
-        SKILLS END
-    =================================-->
+  
 
-    <!--================================
-        PORTFOLIO START
-    =================================-->
-    <section class="tf__portfolio mt_120 xs_mt_80" id="projects">
-      <div class="container">
-        <div class="row">
-          <div class="col-xl-10 col-lg-9 mb_30">
-            <div class="tf__section_heading">
-              <h5 class="has-animation">my recent Portfolio</h5>
-              <h2 class="has-animation">
-                Elevate your brand to new <br />
-                heights with our portfolio expertise
-              </h2>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-xl-8 col-md-6">
-            <a
-              href="https://www.youtube.com/watch?v=B-ytMSuwbf8"
-              class="tf__portfolio_item play_btn"
-              data-cursor="Watch <br> video"
-            >
-              <img
-                src="images/portfolio/1.jpg"
-                alt="portfolio"
-                class="img-fluid w-100"
-              />
-              <div class="text">
-                <h4>sheet metal bending</h4>
-                <p>youtube</p>
-              </div>
-            </a>
-          </div>
-          <div class="col-xl-4 col-md-6">
-            <a
-              class="tf__portfolio_item play_btn"
-              href="https://vimeo.com/132528823"
-              data-cursor="Watch <br> video"
-            >
-              <img
-                src="images/portfolio/2.jpg"
-                alt="portfolio"
-                class="img-fluid w-100"
-              />
-              <div class="text">
-                <h4>sheet metal bending</h4>
-                <p>Vimeo</p>
-              </div>
-            </a>
-          </div>
-          <div class="col-xl-6 col-md-6">
-            <a
-              href="https://w.soundcloud.com/player/?visual=true&amp;url=http%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F159967086&amp;show_artwork=true&amp;maxwidth=1020&amp;maxheight=1000&amp;auto_play=1"
-              class="tf__portfolio_item play_btn"
-              data-cursor="Audio <br> sound"
-            >
-              <img
-                src="images/portfolio/3.jpg"
-                alt="portfolio"
-                class="img-fluid w-100"
-              />
-              <div class="text">
-                <h4>sheet metal bending</h4>
-                <p>soundcloud</p>
-              </div>
-            </a>
-          </div>
-          <div class="col-xl-6 col-md-6">
-            <a
-              href="images/portfolio/4.jpg"
-              class="tf__portfolio_item image_popup"
-              data-cursor="View <br> Image"
-            >
-              <img
-                src="images/portfolio/4.jpg"
-                alt="portfolio"
-                class="img-fluid w-100"
-              />
-              <div class="text">
-                <h4>sheet metal bending</h4>
-                <p>Image</p>
-              </div>
-            </a>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!--================================
-        PORTFOLIO END
-    =================================-->
 
-    <!--================================
-        TESTIMONIAL START
-    =================================-->
-    <section class="tf__testimonial pt_115 xs_pt_75">
-      <div class="container">
-        <div class="row">
-          <div class="col-xl-8 m-auto mb_30">
-            <div class="tf__section_heading">
-              <h5 class="has-animation">clients review</h5>
-              <h2 class="has-animation">My testomonial</h2>
-            </div>
-          </div>
-        </div>
-        <div class="row testi_slider">
-          <div class="col-xl-6">
-            <div class="tf__single_testimonial">
-              <div class="img">
-                <img
-                  src="images/testimonial/1.jpg"
-                  alt="clients"
-                  class="img-fluid w-100"
-                />
-              </div>
-              <p class="rating">
-                <i class="fa-solid fa-star-sharp"></i>
-                <i class="fa-solid fa-star-sharp"></i>
-                <i class="fa-solid fa-star-sharp"></i>
-                <i class="fa-solid fa-star-sharp"></i>
-                <i class="fa-solid fa-star-sharp"></i>
-              </p>
-              <h3>Eleanor pena</h3>
-              <h5>Marketing Coordinator</h5>
-              <p class="description">
-                Financial planners help people to knowledge in about how to
-                invest and in save their moneye the most efficient way eve plan
-                ners help people tioniio know ledige in about how.
-              </p>
-            </div>
-          </div>
-          <div class="col-xl-6">
-            <div class="tf__single_testimonial">
-              <div class="img">
-                <img
-                  src="images/testimonial/2.jpg"
-                  alt="clients"
-                  class="img-fluid w-100"
-                />
-              </div>
-              <p class="rating">
-                <i class="fa-solid fa-star-sharp"></i>
-                <i class="fa-solid fa-star-sharp"></i>
-                <i class="fa-solid fa-star-sharp"></i>
-                <i class="fa-solid fa-star-sharp"></i>
-                <i class="fa-solid fa-star-sharp"></i>
-              </p>
-              <h3>Eleanor pena</h3>
-              <h5>Marketing Coordinator</h5>
-              <p class="description">
-                Financial planners help people to knowledge in about how to
-                invest and in save their moneye the most efficient way eve plan
-                ners help people tioniio know ledige in about how.
-              </p>
-            </div>
-          </div>
-          <div class="col-xl-6">
-            <div class="tf__single_testimonial">
-              <div class="img">
-                <img
-                  src="images/testimonial/1.jpg"
-                  alt="clients"
-                  class="img-fluid w-100"
-                />
-              </div>
-              <p class="rating">
-                <i class="fa-solid fa-star-sharp"></i>
-                <i class="fa-solid fa-star-sharp"></i>
-                <i class="fa-solid fa-star-sharp"></i>
-                <i class="fa-solid fa-star-sharp"></i>
-                <i class="fa-solid fa-star-sharp"></i>
-              </p>
-              <h3>Eleanor pena</h3>
-              <h5>Marketing Coordinator</h5>
-              <p class="description">
-                Financial planners help people to knowledge in about how to
-                invest and in save their moneye the most efficient way eve plan
-                ners help people tioniio know ledige in about how.
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!--================================
-        TESTIMONIAL END
-    =================================-->
+
+
 
     <!--================================
         BRAND START
     =================================-->
     <div class="tf__brand mt_120 xs_mt_80">
       <div class="row">
-        <div class="col-12">
-          <div class="marquee_animi">
+        <div style="background-color: white;"  class="col-12">
+          <div  class="marquee_animi">
             <ul>
-              <li>* PHP</li>
-              <li>* Pyrhon</li>
-              <li>* design</li>
-              <li>* world</li>
-              <li>* Development</li>
+              <li>* Hospitality</li>
+              <li>* Business</li>
+              <li>* Construction</li>
+              <li>* Education</li>
             </ul>
           </div>
         </div>
       </div>
     </div>
-    <!--================================
-        BRAND END
+     <!--================================
+        SERVICE START
     =================================-->
-
-    <!--================================
-        BLOG START
-    =================================-->
-    <section class="tf__blog pt_125 xs_pt_75 pb_40 xs_pb_0" id="blogs">
+    <section class="tf__service pt_130 xs_pt_80" id="service">
       <div class="container">
         <div class="row">
-          <div class="col-xl-8 col-lg-9 mb_30">
-            <div class="tf__section_heading">
-              <h5 class="has-animation">My blog</h5>
+          <div class="col-lg-9 m-auto">
+            <div class="tf__section_heading mb_40">
+              <h5 class="has-animation">Our Edge</h5>
               <h2 class="has-animation">
-                Unlocking the potential of your personal brand
+                
+The Intercat Advantage in Catering <h2 style="color: #aad337;">Excellence</h2> <br />
+                
               </h2>
             </div>
           </div>
         </div>
         <div class="row">
-          <div class="col-xl-4 col-md-6">
-            <div class="tf__slingle_blog fade_left" data-trigerId="blogs">
-              <a
-                href="blog_details.html"
-                class="tf__blog_img"
-                data-cursor="read <br> more"
-              >
+          
+           <div class="col-lg-3 col-md-6">
+            <div class="tf__single_service fade_left" data-trigerId="service">
+              <span>
                 <img
-                  src="images/blog/1.jpg"
-                  alt="blog"
-                  class="img-fluid w-100"
+                  src="svg/website-design.svg"
+                  alt="service"
+                  class="svg w-100"
                 />
-              </a>
-              <div class="tf__blog_text">
-                <span>31 December,2022</span>
-                <ul>
-                  <li>
-                    <i class="fa-sharp fa-solid fa-circle-user"></i> By admin
-                  </li>
-                  <li>
-                    <i class="fa-sharp fa-solid fa-comments"></i> Comments (05)
-                  </li>
-                </ul>
-                <a href="blog_details.html"
-                  >The standard personal My portfolio</a
-                >
-              </div>
+              </span>
+              <h3>Dedicated Team</h3>
+              <p>
+                Led by a passionate team, our expertise and professionalism set us apart in the catering domain.
+              </p>
             </div>
           </div>
-          <div class="col-xl-4 col-md-6">
-            <div class="tf__slingle_blog fade_left" data-trigerId="blogs">
-              <a
-                href="blog_details.html"
-                class="tf__blog_img"
-                data-cursor="read <br> more"
-              >
+
+          <div class="col-lg-3 col-md-6">
+            <div class="tf__single_service fade_left" data-trigerId="service">
+              <span>
                 <img
-                  src="images/blog/2.jpg"
-                  alt="blog"
-                  class="img-fluid w-100"
+                  src="svg/website-design.svg"
+                  alt="service"
+                  class="svg w-100"
                 />
-              </a>
-              <div class="tf__blog_text">
-                <span>31 December,2022</span>
-                <ul>
-                  <li>
-                    <i class="fa-sharp fa-solid fa-circle-user"></i> By admin
-                  </li>
-                  <li>
-                    <i class="fa-sharp fa-solid fa-comments"></i> Comments (05)
-                  </li>
-                </ul>
-                <a href="blog_details.html"
-                  >The standard personal My portfolio</a
-                >
-              </div>
+              </span>
+              <h3>Quality Assurance</h3>
+              <p>
+               Uncompromising dedication to exceptional food and service quality for your events .
+              <br>
+              </p>
             </div>
           </div>
-          <div class="col-xl-4 col-md-6">
-            <div class="tf__slingle_blog fade_left" data-trigerId="blogs">
-              <a
-                href="blog_details.html"
-                class="tf__blog_img"
-                data-cursor="read <br> more"
-              >
+          <div class="col-lg-3 col-md-6">
+            <div class="tf__single_service fade_left" data-trigerId="service">
+              <span>
                 <img
-                  src="images/blog/3.jpg"
-                  alt="blog"
-                  class="img-fluid w-100"
+                  src="svg/logo-design.svg"
+                  alt="service"
+                  class="svg w-100"
                 />
-              </a>
-              <div class="tf__blog_text">
-                <span>31 December,2022</span>
-                <ul>
-                  <li>
-                    <i class="fa-sharp fa-solid fa-circle-user"></i> By admin
-                  </li>
-                  <li>
-                    <i class="fa-sharp fa-solid fa-comments"></i> Comments (05)
-                  </li>
-                </ul>
-                <a href="blog_details.html"
-                  >The standard personal My portfolio</a
-                >
-              </div>
+              </span>
+              <h3>Community Engagement</h3>
+              <p>
+                Building lasting partnerships through our commitment to community involvement and support.
+              </p>
             </div>
           </div>
-          <div class="col-12">
-            <a href="blog_list.html" class="common_btn">More Blog +</a>
+          <div class="col-lg-3 col-md-6">
+            <div class="tf__single_service fade_left" data-trigerId="service">
+              <span>
+                <img
+                  src="svg/app-development.svg"
+                  alt="service"
+                  class="svg w-100"
+                />
+              </span>
+              <h3>Leadership Position</h3>
+              <p>
+              30 years of catering legacy, positioning us as industry leaders in catering and hospitality services.
+              </p>
+            </div>
           </div>
         </div>
       </div>
     </section>
     <!--================================
-        BLOG END
+        SERVICE END
     =================================-->
+
+  
     <!--================================
-        SUBSCRIBE START
+        OUR PROCESS START
     =================================-->
-    <div class="tf__subscribe" style="background: url(images/bg/subscribe.jpg)">
-      <div class="tf__subscribe_overlay pt_115 xs_pt_75 pb_120 xs_pb_80">
-        <div class="container">
-          <div class="row">
-            <div class="col-xl-6 col-lg-8 col-md-10 m-auto">
-              <div class="tf__subscribe_text">
-                <h3 class="has-animation">SUBSCRIBE MY NEWSLETTER</h3>
-                <form action="#" class="">
-                  <input type="text" placeholder="Enter Your Email" />
-                  <button type="submit" class="common_btn">Notify Now</button>
-                </form>
-              </div>
-            </div>
-          </div>
+   <section class="tf__skills pt_115 xs_pt_75 pb_70 xs_pb_30" id="skills">
+  <div class="container">
+    <!-- Section Heading -->
+    <div class="row">
+      <div class="col-xl-10 col-lg-8 m-auto mb_60 text-center">
+        <div class="tf__section_heading mb_40">
+          <h5 class="has-animation">Our Process</h5>
+          <h2 class="has-animation">
+            Crafting Success through Detailed <h2 style="color: #aad337;">Processes</h2>
+          </h2>
         </div>
       </div>
     </div>
+
+    <!-- Process Content -->
+    <div class="row align-items-center">
+      <!-- Process Steps -->
+      <div class="col-lg-6">
+        <div class="tf__single_skills fade_bottom mb-4" data-trigerId="skills" data-stagger=".13">
+          <h3>Planning</h3>
+          <p>
+            Meticulous planning to understand your vision and ensure a seamless execution for your event.
+          </p>
+        </div>
+
+        <div class="tf__single_skills fade_bottom mb-4" data-trigerId="skills" data-stagger=".25">
+          <h3>Execution</h3>
+          <p>
+            Flawless execution of catering services to deliver a memorable culinary experience for your guests.
+          </p>
+        </div>
+
+        <div class="tf__single_skills fade_bottom" data-trigerId="skills" data-stagger=".37">
+          <h3>Feedback</h3>
+          <p>
+            Gathering feedback and insights to continuously improve our services and exceed expectations.
+          </p>
+        </div>
+      </div>
+
+      <!-- Image Column -->
+      <div class="col-lg-6 text-center">
+        <img src="images/process.jpg" alt="Our Process" class="img-fluid rounded shadow" style="max-height: 450px; object-fit: cover;">
+      </div>
+    </div>
+  </div>
+</section>
+  <!--================================
+        CONTACT START
+    =================================-->
+    <section class="tf__contact pt_110 xs_pt_70 pb_120 xs_pb_80">
+      <div class="container">
+        <div class="tf__section_heading pb_40">
+          <h5 class="has-animation">Get In Touch</h5>
+          <h2 class="has-animation">
+            Let’s Create <br> Unforgettable Moments Together
+            <span>Reach out to us for bespoke catering services tailored to your unique needs and events
+</span>
+          </h2>
+        </div>
+        <div class="row">
+          <div class="col-xl-7 col-lg-7">
+    
+            <div class="tf__contact_form_area">
+              <form action="#">
+                <div class="row">
+                  <div class="col-xl-6">
+                    <input type="text" placeholder="Your Name*" />
+                  </div>
+                  <div class="col-xl-6">
+                    <input type="email" placeholder="Your Email*" />
+                  </div>
+                  <div class="col-xl-6">
+                    <input type="text" placeholder="Phone Number*" />
+                  </div>
+                  <div class="col-xl-6">
+                    <input type="text" placeholder="Your Website*" />
+                  </div>
+                  <div class="col-xl-12">
+                    <textarea
+                      rows="7"
+                      placeholder="Write Your Message Here*"
+                    ></textarea>
+                    <button class="common_btn" type="submit">Send Mail</button>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+          <div class="col-xl-5 col-lg-5">
+
+            <h3>Phone</h3>
+            <p>+966 533013313 <br> +966 533003442</p>
+            <br>
+                    <h3>Address</h3>
+            <p>
+
+Prince Mohammed bin Fahad Road,Building No. 6923, Al Bastan District,Dammam <br> Kingdom of Saudi Arabia
+</p>
+
+            <!-- <div class="tf__contact_map">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7299.9714197014055!2d90.45054656894744!3d23.819107188100446!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755c884b37fc1a7%3A0x4abc58eea42b43c3!2sBlock%20M%2C%20Dhaka!5e0!3m2!1sen!2sbd!4v1692295852649!5m2!1sen!2sbd"
+                style="border: 0"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+              ></iframe>
+            </div> -->
+          </div>
+        </div>
+      </div>
+    </section>
     <!--================================
-SUBSCRIBE END
-=================================-->
+        CONTACT END
+    =================================-->
+
+    <!--================================
+        PROCESS END
+    =================================-->
+
+ 
+   
 
     <!--================================
         FOOTER START
@@ -1002,20 +898,20 @@ SUBSCRIBE END
             <div class="row">
               <div class="col-12">
                 <div class="tf__footer_copyright">
-                  <p>© CodeeFly 2023 | All Rights Reserved</p>
+                  <p>© COMBO CATERING COMPANY 2025 | All Rights Reserved</p>
                   <ul>
                     <li>
                       <a href="#" class="text_hover_animaiton"
-                        >Trams & Condition</a
+                        >Home</a
                       >
                     </li>
                     <li>
                       <a href="#" class="text_hover_animaiton"
-                        >Privacy Policy</a
+                        >About</a
                       >
                     </li>
                     <li>
-                      <a href="#" class="text_hover_animaiton">Sitemap</a>
+                      <a href="#" class="text_hover_animaiton">Services</a>
                     </li>
                   </ul>
                 </div>

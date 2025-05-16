@@ -37,10 +37,10 @@
     <!--================================
         MENU START
     =================================-->
-    <nav dir="rtl" class="navbar navbar-expand-lg main_menu">
-      <div class="container main_menu_bg">
+    <nav dir="rtl" class="navbar navbar-expand-lg main_menu transparent-navbar fixed-top">
+      <div class="container ">
         <a class="navbar-brand" href="index.html">
-          <img src="images/logo-rtl.png" alt="ZYAN" class="img-fluid w-100" />
+          <img style="padding-top: 15px;" src="images/logo5.jpg" alt="ZYAN" class="img-fluid w-100" />
         </a>
         <button
           class="navbar-toggler"
@@ -98,7 +98,7 @@
               </a>
             </li>
           </ul>
-          <span
+          <!-- <span
             class="toggle_icon c-pointer"
             data-bs-toggle="offcanvas"
             data-bs-target="#offcanvasRight"
@@ -106,7 +106,7 @@
             ><i
               class="fa-sharp fa-sharp fa-regular fa-bars bar_icon-staggered"
             ></i
-          ></span>
+          ></span> -->
         </div>
       </div>
     </nav>
@@ -163,49 +163,43 @@
     <!--================================
         BANNER START
     =================================-->
-    <section
-      class="tf__banner banner"
-      style="background: url(images/bg/banner.jpg)"
-    >
+   <section
+      class="tf__banner banner low-light-banner"
+    style="
+    background: linear-gradient(rgba(0, 0, 0, 1.5), rgba(0, 0, 0, 0.5)), url(images/banner-2.jpg);
+    background-size: cover;
+    background-position: center;
+  "
+>
       <div class="container">
         <div class="row justify-content-between">
           <div class="col-xl-6 col-lg-8">
             <div class="tf__banner_text">
-              <h1>
-                مرحبًا، أنا زيان! مبدع
-                <span class="cd-headline rotate-1">
-                  <!-- ANIMATE TEXT VALUES: zoom, rotate-1, letters type, letters rotate-2, loading-bar, slide, clip, letters rotate-3, letters scale, push,  -->
-                  <span class="cd-words-wrapper">
-                    <b class="is-visible">مصمم</b>
-                    <b>المبرمج</b>
-                    <b>لاعب</b>
-                  </span>
-                </span>
+              <h1 class="fade_left" style="color: white;">
+خدمات تموين  <br><span>استثنائية
+
+</span>
+               
               </h1>
-              <p>
-                أنا مصمم UI/UX شغوف بمهمة الإبداع تجارب رقمية مبهجة وبديهية. مع
-                قوي أساس في مبادئ التصميم وعين حريصة على التفاصيل، I متخصصون في
-                ترجمة الأفكار المعقدة إلى سهلة الاستخدام واجهات تأسر وتتفاعل.
-              </p>
+              <h3 style="color: white;">
+                نصنع تجربة طهي لا تُنسىلجميع القطاعات
+
+              </h3>
+              <h6 style="color: white;">
+                نقدّم حلول تموين مصممة خصيصًا لتلبية احتياجات قطاعات الضيافة، والأعمال، والتعليم، والدفاع، والجهات الحكومية.  نبني شراكات طويلة الأمد تُحقق قيمة مستمرة.
+              </h6>
               <ul>
                 <li>
-                  <a class="common_btn" href="#"
+                  <a class="common_btn" style="border-radius:6px; font-family: var(--font-primary);" href="#"
                     >تحميل السيرة الذاتية
-                    <i class="fa-solid fa-arrow-down-to-line"></i
+                    <i class="fa-solid fa-arrow-down"></i
                   ></a>
                 </li>
-                <li>
-                  <a
-                    class="banner_video_btn play_btn"
-                    href="https://www.youtube.com/watch?v=B-ytMSuwbf8"
-                    ><i class="fa-sharp fa-solid fa-circle-play"></i> شاهد ال
-                    فيديو</a
-                  >
-                </li>
+               
               </ul>
             </div>
           </div>
-          <div class="col-xl-5 col-lg-4">
+          <!-- <div class="col-xl-5 col-lg-4">
             <div class="tf__banner_img">
               <div class="img">
                 <img
@@ -215,125 +209,51 @@
                 />
               </div>
             </div>
-          </div>
+          </div> -->
         </div>
       </div>
     </section>
     <!--================================
         BANNER END
     =================================-->
-    <!--================================
-        SERVICE START
-    =================================-->
-    <section class="tf__service pt_130 xs_pt_80" id="service">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-9 m-auto">
-            <div class="tf__section_heading mb_40">
-              <h5 class="has-animation">خدمتي</h5>
-              <h2 class="has-animation">
-                صياغة القصص من خلال <br />
-                التصميم والابتكار
-              </h2>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-lg-4 col-md-6">
-            <div class="tf__single_service fade_left" data-trigerId="service">
-              <span>
-                <img
-                  src="svg/website-design.svg"
-                  alt="service"
-                  class="svg w-100"
-                />
-              </span>
-              <h3>تصميم الموقع</h3>
-              <p>
-                لأنه لا أحد يصمم المتعة نفسها، إلا إذا تم رفض المتعة نفسها أو
-                يكره الركوب فيهرب، ولكن هذه الأمور تترتب عليها آلام عظيمة أولئك
-                المصممين بدعة الذين
-              </p>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6">
-            <div class="tf__single_service fade_left" data-trigerId="service">
-              <span>
-                <img
-                  src="svg/logo-design.svg"
-                  alt="service"
-                  class="svg w-100"
-                />
-              </span>
-              <h3>تصميم شعار</h3>
-              <p>
-                لأنه لا أحد يصمم المتعة نفسها، إلا إذا تم رفض المتعة نفسها أو
-                يكره الركوب فيهرب، ولكن هذه الأمور تترتب عليها آلام عظيمة أولئك
-                المصممين بدعة الذين
-              </p>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6">
-            <div class="tf__single_service fade_left" data-trigerId="service">
-              <span>
-                <img
-                  src="svg/app-development.svg"
-                  alt="service"
-                  class="svg w-100"
-                />
-              </span>
-              <h3>تطوير التطبيقات</h3>
-              <p>
-                لأنه لا أحد يصمم المتعة نفسها، إلا إذا تم رفض المتعة نفسها أو
-                يكره الركوب فيهرب، ولكن هذه الأمور تترتب عليها آلام عظيمة أولئك
-                المصممين بدعة الذين
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!--================================
-        SERVICE END
-    =================================-->
-
-    <!--================================
+    
+      <!--================================
         ABOUT START
     =================================-->
-    <section class="tf__about pt_140 xs_pt_80" id="about">
+    <section style="background: black;" class="tf__about pt_140 xs_pt_80" id="about">
       <div class="container">
         <div class="row justify-content-between">
           <div class="col-xxl-7 col-lg-6 col-xl-6">
-            <div class="tf__section_heading pb_80 xs_pb_50">
-              <h5 class="has-animation">ْعَنِّي</h5>
-              <h2 class="has-animation">تحويل الرؤى إلى محافظ استثنائية</h2>
+            <div class="tf__section_heading pb_50 xs_pb_50">
+              <h5 style="color: white;" class="has-animation">نبذة عنا</h5>
+              <h2 style="color: white;" class="has-animation">قصتنا</h2>
             </div>
-            <div class="tf__about_text">
-              <p>
-                لأنه لا أحد يصمم المتعة نفسها، إلا إذا تم رفض المتعة نفسها أو
-                يكره الركوب فيهرب، ولكن هذه الأمور تترتب عليها آلام عظيمة أولئك
-                المصممين بدعة الذين ratione
+            <div>
+              <p style="color: white;">
+                <b>إرث من التميز والمساهمة المجتمعية</b>
+                تأسست شركة كومبو للتموين في المملكة العربية السعودية عام 2001، وهي تقدم خدمات تموين متميزة تم تصميمها خصيصًا لتلبية احتياجات قطاعات متنوعة تشمل الضيافة، الأعمال، البناء، التعليم، الدفاع، والجهات الحكومية.
               </p>
-              <a class="common_btn" href="#"
-                >تحميل السيرة الذاتية
-                <i class="fa-solid fa-arrow-down-to-line"></i
+              <a style="background: #9bcc5b; border-radius: 7px; margin-top: 20px;"  class="common_btn" href="#"
+                >
+                أقرأ المزيد
+               </i
               ></a>
             </div>
           </div>
           <div class="col-xxl-4 col-lg-6 col-xl-6">
             <div class="tf__about_img fade_right" data-trigerId="about">
               <img
-                src="images/about_img.jpg"
-                alt="ZYAN"
+                src="images/imageabout.jpg"
+                alt="img"
                 class="img-fluid w-100"
               />
-              <div class="tf__about_img_text">
+              <!-- <div class="tf__about_img_text">
                 <i class="fas fa-chart-pie-alt"></i>
                 <div class="tf__about_content">
                   <h4>النشاط اليومي</h4>
                   <p>لوريم هو الإسلام</p>
                 </div>
-              </div>
+              </div> -->
             </div>
           </div>
         </div>
@@ -343,25 +263,236 @@
         ABOUT END
     =================================-->
 
+     <!--================================
+        BLOG START
+    =================================-->
+    <section class="tf__blog pt_125 xs_pt_75 pb_40 xs_pb_0" id="blogs">
+      <div class="container">
+        <div class="row">
+          <div class="col-xl-8 col-lg-9 mb_30">
+            <div class="tf__section_heading tf__banner_text">
+              <h5 class="has-animation">خدماتنا</h5>
+              <h1 class="has-animation">
+                 خدمات تموين فاخرة مُفصلة حسب 
+                 <span>الاحتياج</span>
+              </h1>
+              <p style="color: white; margin: 0px;">نُقدّم مجموعة متنوعة من خدمات التموين الفاخرة التي تعكس ريادتنا وتميّزنا في مجال صناعة التموين.</p>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-xl-4 col-md-6">
+            <div class="tf__slingle_blog fade_left" data-trigerId="blogs">
+              <a
+                href="blog_details.html"
+                class="tf__blog_img"
+                data-cursor="read <br> more"
+              >
+                <img
+                  src="images/hospital.jpg"
+                  alt="blog"
+                  class="img-fluid w-100"
+                />
+              </a>
+              <div class="tf__blog_text">
+                <ul>
+                  <li>
+                  </li>
+                  <li>
+                  </li>
+                </ul>
+                <a href="blog_details.html">  الضيافة</a>
+                <p style="text-wrap:no-wrap ; text-align: center;">تجارب طعام راقية للفنادق والفعاليات</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-4 col-md-6">
+            <div class="tf__slingle_blog fade_left" data-trigerId="blogs">
+              <a
+                href="blog_details.html"
+                class="tf__blog_img"
+                data-cursor="read <br> more"
+              >
+                <img
+                  src="images/buisness.jpg"
+                  alt="blog"
+                  class="img-fluid w-100"
+                />
+              </a>
+              <div class="tf__blog_text">
+                <ul>
+                  <li>
+                    
+                  </li>
+                  <li>
+                  </li>
+                </ul>
+                <a href="blog_details.html"> الأعمال </a>
+                <p style="text-align: center;">خدمات تموين احترافية للفعاليات والمؤتمرات التجارية</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-4 col-md-6">
+            <div class="tf__slingle_blog fade_left" data-trigerId="blogs">
+              <a
+                href="blog_details.html"
+                class="tf__blog_img"
+                data-cursor="read <br> more"
+              >
+                <img
+                  src="images/education.jpg"
+                  alt="blog"
+                  class="img-fluid w-100"
+                />
+              </a>
+              <div class="tf__blog_text">
+                <ul>
+                  <li>
+                    
+                  </li>
+                  <li>
+                  </li>
+                </ul>
+                <a href="blog_details.html">  قطاع الإنشاءات</a>
+                <p style="text-align: center;">خدمات تموين لمواقع المشاريع الإنشائية</p>
+              </div>
+            </div>
+          </div>
+         
+        </div>
+      </div>
+    </section>
+    <!--================================
+        BLOG END
+    =================================-->
+
+    <!--================================
+        SERVICE START
+    =================================-->
+    <section class="tf__service pt_130 xs_pt_80" id="service">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-9 m-auto">
+            <div class="tf__section_heading mb_40">
+              <h5 class="has-animation">خدماتنا</h5>
+              <h2 class="has-animation">خدمات  الطعام  لجميع  <h2 style="color: #aad337;">المناسبات</h2>
+                
+              </h2>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+            <!-- Hospitality -->
+          <div class="col-lg-3 col-md-6 mb-4">
+            <div class="fade_left" style="background-color: #1c1c1c; border-radius: 16px; overflow: hidden; color: #fff;" data-trigerId="service">
+              
+                <img 
+                style="width: 100%; display: block;"
+                  src="images/service2.jpg"
+                  alt="service"
+                  class="svg w-100"
+                />
+           <div style="padding: 20px;">
+              <h3  style="text-align: center;"> الضيافة</h3>
+              <p style="color: #ccc; text-align: center;">
+                تقدم خدمات التموين لدينا في قطاع الضيافة قوائم طعام فاخرة وخدمة لا تشوبها شائبة، لترتقي بأي إقامة فندقية أو فعالية، وتخلق تجارب لا تُنسى للضيوف.
+              </p>
+
+           </div>
+            
+            </div>
+          </div>
+          <!-- Business -->
+          <div class="col-lg-3 col-md-6 mb-4">
+            <div class=" fade_left" style="background-color: #1c1c1c; border-radius: 16px; overflow: hidden; color: #fff;" data-trigerId="service">
+                <img
+                style="width: 100%; display: block;"
+                  src="images/banner-2.jpg"
+                  alt="service"
+                  class="svg w-100"
+                />
+                <div style="padding: 20px;">
+  <h3  style="text-align: center;">الأعمال</h3>
+              <p style="color: #ccc; text-align: center;">
+                للمناسبات والاجتماعات التجارية، نوفر خدمات تموين تجمع بين المأكولات الشهية والتوصيل السلس، مما يعزز نجاح أي تجمع أو فعالية مؤسسية
+              </p>
+                </div>
+            
+            </div>
+          </div>
+            <!-- Construction -->
+
+          <div class="col-lg-3 col-md-6 mb-4">
+            <div class="fade_left" style="background-color: #1c1c1c; border-radius: 16px; overflow: hidden; color: #fff;" data-trigerId="service">
+                <img
+                  src="images/banner3.jpg"
+                  alt="service"
+                  class="svg w-100"
+                />
+                <div style="padding: 20px;">
+                    <h3 style="text-align: center;" >البناء </h3>
+              <p style="color: #ccc; text-align: center;">
+                نحن متخصصون في التموين في مواقع البناء، حيث نقدم وجبات شهية تساهم في زيادة الإنتاجية ودعم الجهود المبذولة في مواقع  <br>العمل.
+              </p>
+
+                </div>
+            
+            </div>
+          </div>
+          <!-- Education -->
+           <div class="col-lg-3 col-md-6">
+            <div class=" fade_left" data-trigerId="service" style="background-color: #1c1c1c; border-radius: 16px; overflow: hidden; color: #fff;">
+                <img style="width: 100%; display: block;"
+                  src="images/service1.jpg"
+                  alt="service"
+                  class="svg w-100"
+                />
+                <div style="padding: 20px;">
+ <h3  style="text-align: center;" > التعليم</h3>
+              <p style="color: #ccc; text-align: center;">
+                نقدّم خدمات تموين مخصصة للمؤسسات التعليمية، تشمل مدارس وجامعات، من خلال توفير وجبات صحية تدعم التعلم والتطور لدى الطلاب وأعضاء الهيئة التدريسية
+              </p>
+                </div>
+             
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--================================
+        SERVICE END
+    =================================-->
+
+  
     <!--================================
         DESIGN START
     =================================-->
     <section class="tf__design mt_135 xs_mt_40 mb_120 xs_mb_80" id="counter">
       <div class="container">
         <div class="row">
+           <div class="col-xl-6 col-lg-6">
+            <div>
+             <img src="images/vision.jpg" alt="">
+            </div>
+          </div>
           <div class="col-xl-6 col-lg-6">
             <div class="tf__design_text">
-              <h2>تصميم <span>والابتكار</span></h2>
-              <p class="">
-                هناك حقيقة مثبتة منذ زمن طويل وهي أن المحتوى المقروء لصفحة ما
-                سيلهي القارئ عن التركيز على الشكل الخارجي للنص أو شكل توضع
-                الفقرات في الصفحة التي يقرأها. ولذلك يتم استخدام طريقة لوريم
-                إيبسوم لأنها تعطي توزيعاَ طبيعياَ -إلى حد ما- للأحرف عوضاً عن
-                استخدام "هنا يوجد محتوى نصي، هنا يوجد محتوى نصي" فتجعلها تبدو
-                (أي الأحرف) وكأنها نص مقروء.
+              <h2>رؤية <span style="color: #aad337;">والقيم</span></h2>
+              <p style="color: white;">
+               خدمة التموين ليست مجرد عمل بالنسبة لشركة كومبو للتموين – بل هي شغفنا.
+
+نحن نفخر بالتزامنا الثابت بتقديم خدمة عملاء من الدرجة الأولى. ثقتك بنا لتلبية احتياجات الضيافة والتموين تضمن لك نهجًا مخصصًا مصممًا لتلبية المتطلبات الفريدة لصناعتك بدقة وتميّز. على مدار السنوات، قدمنا الجودة والموثوقية، مما جعلنا علامة تجارية متميزة في هذا المجال. شعارنا هو: "الناس هم مفتاح نجاحنا"، بالإضافة الى الجهود المخلصة لموظفينا التي مكنتنا من تحقيق التميز لأكثر من ثلاثة عقود.
+
+
               </p>
             </div>
-            <div class="row">
+            <br>
+            <p style="color: white;">
+              في شركة كومبو للتموين، توجه قيمنا الأساسية من النزاهة والابتكار والتميز كل ما نقوم به. نحن ملتزمون بالحفاظ على أعلى معايير الخدمة والجودة والاحترافية في صناعة التموين.
+
+
+            </p>
+            <div style="margin-top: 50px;" class=" row">
               <div class="col-xl-6 col-md-6">
                 <div
                   class="tf__design_counter fade_left"
@@ -374,8 +505,8 @@
                       class="svg img-fluid w-100"
                     />
                   </span>
-                  <h3><span class="counter">10</span>k+</h3>
-                  <p>مشروع كامل</p>
+                  <h3><span class="counter">100</span>k+</h3>
+                  <p> العميل بالفعل</p>
                 </div>
               </div>
               <div class="col-xl-6 col-md-6">
@@ -391,27 +522,12 @@
                     />
                   </span>
                   <h3><span class="counter">800</span>+</h3>
-                  <p>مراجعة العميل</p>
+                  <p> مراجعة العملاء</p>
                 </div>
               </div>
             </div>
           </div>
-          <div class="col-xl-6 col-lg-6">
-            <div class="tf__design_form">
-              <h2 class="has-animation">هل تلمسني؟</h2>
-              <p class="">
-                بالنسبة لسيارتك، سنفعل كل ما يتعلق بتصميم النصائح في إصلاحاتنا
-                والصيانة نحن البعض المفضل.
-              </p>
-              <form action="#">
-                <input class="" type="text" placeholder="Your Name" />
-                <input class="" type="email" placeholder="Your Email" />
-                <input class="" type="text" placeholder="Phone Number" />
-                <textarea class="" rows="4" placeholder="Message"></textarea>
-                <button type="submit" class="common_btn">يقدم الآن</button>
-              </form>
-            </div>
-          </div>
+         
         </div>
       </div>
     </section>
@@ -419,628 +535,308 @@
         DESIGN END
     =================================-->
 
-    <!--================================
-        SKILLS START
-    =================================-->
-    <section class="tf__skills pt_115 xs_pt_75 pb_70 xs_pb_30" id="skills">
-      <div class="container">
-        <div class="row">
-          <div class="col-xl-10 col-lg-8 m-auto mb_60">
-            <div class="tf__section_heading mb_40">
-              <h5 class="has-animation">التعليم والمهارة</h5>
-              <h2 class="has-animation">
-                إبراز موهبتك <br />
-                تضخيم تأثيرك
-              </h2>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-xl-6 col-lg-6">
-            <div
-              class="tf__single_skills fade_bottom"
-              data-trigerId="skills"
-              data-stagger=".13"
-            >
-              <span>2014 - 2018</span>
-              <h3>وورد والمطور النهائي</h3>
-              <p>
-                هناك حقيقة مثبتة منذ زمن طويل وهي أن المحتوى المقروء لصفحة ما
-                سيلهي القارئ عن التركيز على الشكل الخارجي للنص أو شكل توضع
-                الفقرات في الصفحة التي يقرأها. ولذلك يتم استخدام طريقة لوريم
-                إيبسوم لأنها تعطي توزيعاَ طبيعياَ -إلى حد ما
-              </p>
-            </div>
-          </div>
-          <div class="col-xl-6 col-lg-6">
-            <div
-              class="tf__single_skills fade_bottom"
-              data-trigerId="skills"
-              data-stagger=".25"
-            >
-              <span>2012 - 2014</span>
-              <h3>مطور بايثون</h3>
-              <p>
-                هناك حقيقة مثبتة منذ زمن طويل وهي أن المحتوى المقروء لصفحة ما
-                سيلهي القارئ عن التركيز على الشكل الخارجي للنص أو شكل توضع
-                الفقرات في الصفحة التي يقرأها. ولذلك يتم استخدام طريقة لوريم
-                إيبسوم لأنها تعطي توزيعاَ طبيعياَ -إلى حد ما
-              </p>
-            </div>
-          </div>
-          <div class="col-xl-6 col-lg-6">
-            <div
-              class="tf__single_skills fade_bottom"
-              data-trigerId="skills"
-              data-stagger=".25"
-            >
-              <span>2005 - 2009</span>
-              <h3>جامعة ولاية كينت</h3>
-              <p>
-                هناك حقيقة مثبتة منذ زمن طويل وهي أن المحتوى المقروء لصفحة ما
-                سيلهي القارئ عن التركيز على الشكل الخارجي للنص أو شكل توضع
-                الفقرات في الصفحة التي يقرأها. ولذلك يتم استخدام طريقة لوريم
-                إيبسوم لأنها تعطي توزيعاَ طبيعياَ -إلى حد ما
-              </p>
-            </div>
-          </div>
-          <div class="col-xl-6 col-lg-6">
-            <div
-              class="tf__single_skills fade_bottom"
-              data-trigerId="skills"
-              data-stagger=".25"
-            >
-              <span>2009 - 2012</span>
-              <h3>تصميم تجربة المستخدم</h3>
-              <p>
-                هناك حقيقة مثبتة منذ زمن طويل وهي أن المحتوى المقروء لصفحة ما
-                سيلهي القارئ عن التركيز على الشكل الخارجي للنص أو شكل توضع
-                الفقرات في الصفحة التي يقرأها. ولذلك يتم استخدام طريقة لوريم
-                إيبسوم لأنها تعطي توزيعاَ طبيعياَ -إلى حد ما
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-xl-6 col-lg-6">
-            <div
-              class="tf__team_skills_bar_single fade_bottom"
-              data-trigerId="skills"
-              data-stagger=".25"
-            >
-              <p>لغة البرمجة</p>
-              <div id="bar1" class="barfiller">
-                <div class="tipWrap">
-                  <span class="tip"></span>
-                </div>
-                <span class="fill" data-percentage="75"></span>
-              </div>
-            </div>
-          </div>
-          <div class="col-xl-6 col-lg-6">
-            <div
-              class="tf__team_skills_bar_single fade_bottom"
-              data-trigerId="skills"
-              data-stagger=".25"
-            >
-              <p>بايثون</p>
-              <div id="bar2" class="barfiller">
-                <div class="tipWrap">
-                  <span class="tip"></span>
-                </div>
-                <span class="fill" data-percentage="90"></span>
-              </div>
-            </div>
-          </div>
-          <div class="col-xl-6 col-lg-6">
-            <div
-              class="tf__team_skills_bar_single fade_bottom"
-              data-trigerId="skills"
-              data-stagger=".25"
-            >
-              <p>المغلق</p>
-              <div id="bar3" class="barfiller">
-                <div class="tipWrap">
-                  <span class="tip"></span>
-                </div>
-                <span class="fill" data-percentage="80"></span>
-              </div>
-            </div>
-          </div>
-          <div class="col-xl-6 col-lg-6">
-            <div
-              class="tf__team_skills_bar_single fade_bottom"
-              data-trigerId="skills"
-              data-stagger=".25"
-            >
-              <p>محل تصوير</p>
-              <div id="bar4" class="barfiller">
-                <div class="tipWrap">
-                  <span class="tip"></span>
-                </div>
-                <span class="fill" data-percentage="70"></span>
-              </div>
-            </div>
-          </div>
-          <div class="col-xl-6 col-lg-6">
-            <div
-              class="tf__team_skills_bar_single fade_bottom"
-              data-trigerId="skills"
-              data-stagger=".25"
-            >
-              <p>جافا سكريبت</p>
-              <div id="bar5" class="barfiller">
-                <div class="tipWrap">
-                  <span class="tip"></span>
-                </div>
-                <span class="fill" data-percentage="70"></span>
-              </div>
-            </div>
-          </div>
-          <div class="col-xl-6 col-lg-6">
-            <div
-              class="tf__team_skills_bar_single fade_bottom"
-              data-trigerId="skills"
-              data-stagger=".25"
-            >
-              <p>فيجما</p>
-              <div id="bar6" class="barfiller">
-                <div class="tipWrap">
-                  <span class="tip"></span>
-                </div>
-                <span class="fill" data-percentage="80"></span>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!--================================
-        SKILLS END
-    =================================-->
+   
 
-    <!--================================
-        PORTFOLIO START
-    =================================-->
-    <section class="tf__portfolio mt_120 xs_mt_80" id="projects">
-      <div class="container">
-        <div class="row">
-          <div class="col-xl-10 col-lg-9 mb_30">
-            <div class="tf__section_heading">
-              <h5 class="has-animation">محفظتي الأخيرة</h5>
-              <h2 class="has-animation">
-                ارفع علامتك التجارية إلى مستوى جديد <br />
-                المرتفعات مع خبرتنا في محفظتنا
-              </h2>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-xl-8 col-md-6">
-            <a
-              href="https://www.youtube.com/watch?v=B-ytMSuwbf8"
-              class="tf__portfolio_item play_btn"
-              data-cursor="Watch <br> video"
-            >
-              <img
-                src="images/portfolio/1.jpg"
-                alt="portfolio"
-                class="img-fluid w-100"
-              />
-              <div class="text">
-                <h4>ثني الصفائح المعدنية</h4>
-                <p>youtube</p>
-              </div>
-            </a>
-          </div>
-          <div class="col-xl-4 col-md-6">
-            <a
-              class="tf__portfolio_item play_btn"
-              href="https://vimeo.com/132528823"
-              data-cursor="Watch <br> video"
-            >
-              <img
-                src="images/portfolio/2.jpg"
-                alt="portfolio"
-                class="img-fluid w-100"
-              />
-              <div class="text">
-                <h4>ثني الصفائح المعدنية</h4>
-                <p>Vimeo</p>
-              </div>
-            </a>
-          </div>
-          <div class="col-xl-6 col-md-6">
-            <a
-              href="https://w.soundcloud.com/player/?visual=true&amp;url=http%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F159967086&amp;show_artwork=true&amp;maxwidth=1020&amp;maxheight=1000&amp;auto_play=1"
-              class="tf__portfolio_item play_btn"
-              data-cursor="Audio <br> sound"
-            >
-              <img
-                src="images/portfolio/3.jpg"
-                alt="portfolio"
-                class="img-fluid w-100"
-              />
-              <div class="text">
-                <h4>ثني الصفائح المعدنية</h4>
-                <p>soundcloud</p>
-              </div>
-            </a>
-          </div>
-          <div class="col-xl-6 col-md-6">
-            <a
-              href="images/portfolio/4.jpg"
-              class="tf__portfolio_item image_popup"
-              data-cursor="View <br> Image"
-            >
-              <img
-                src="images/portfolio/4.jpg"
-                alt="portfolio"
-                class="img-fluid w-100"
-              />
-              <div class="text">
-                <h4>ثني الصفائح المعدنية</h4>
-                <p>Image</p>
-              </div>
-            </a>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!--================================
-        PORTFOLIO END
-    =================================-->
-
-    <!--================================
-        TESTIMONIAL START
-    =================================-->
-    <section class="tf__testimonial pt_115 xs_pt_75">
-      <div class="container">
-        <div class="row">
-          <div class="col-xl-8 m-auto mb_30">
-            <div class="tf__section_heading">
-              <h5 class="has-animation">مراجعة العملاء</h5>
-              <h2 class="has-animation">شهادتي</h2>
-            </div>
-          </div>
-        </div>
-        <div class="row testi_slider" dir="rtl">
-          <div class="col-xl-6">
-            <div class="tf__single_testimonial">
-              <div class="img">
-                <img
-                  src="images/testimonial/1.jpg"
-                  alt="clients"
-                  class="img-fluid w-100"
-                />
-              </div>
-              <p class="rating">
-                <i class="fa-solid fa-star-sharp"></i>
-                <i class="fa-solid fa-star-sharp"></i>
-                <i class="fa-solid fa-star-sharp"></i>
-                <i class="fa-solid fa-star-sharp"></i>
-                <i class="fa-solid fa-star-sharp"></i>
-              </p>
-              <h3>إليانور بينا</h3>
-              <h5>منسق التسويق</h5>
-              <p class="description">
-                يساعد المخططون الماليون الناس على المعرفة حول كيفية القيام بذلك
-                الاستثمار وتوفير أموالهم بالطريقة الأكثر فعالية للتخطيط يساعد
-                الأشخاص الأشخاص في معرفة كيفية القيام بذلك.
-              </p>
-            </div>
-          </div>
-          <div class="col-xl-6">
-            <div class="tf__single_testimonial">
-              <div class="img">
-                <img
-                  src="images/testimonial/2.jpg"
-                  alt="clients"
-                  class="img-fluid w-100"
-                />
-              </div>
-              <p class="rating">
-                <i class="fa-solid fa-star-sharp"></i>
-                <i class="fa-solid fa-star-sharp"></i>
-                <i class="fa-solid fa-star-sharp"></i>
-                <i class="fa-solid fa-star-sharp"></i>
-                <i class="fa-solid fa-star-sharp"></i>
-              </p>
-              <h3>إليانور بينا</h3>
-              <h5>منسق التسويق</h5>
-              <p class="description">
-                يساعد المخططون الماليون الناس على المعرفة حول كيفية القيام بذلك
-                الاستثمار وتوفير أموالهم بالطريقة الأكثر فعالية للتخطيط يساعد
-                الأشخاص الأشخاص في معرفة كيفية القيام بذلك.
-              </p>
-            </div>
-          </div>
-          <div class="col-xl-6">
-            <div class="tf__single_testimonial">
-              <div class="img">
-                <img
-                  src="images/testimonial/1.jpg"
-                  alt="clients"
-                  class="img-fluid w-100"
-                />
-              </div>
-              <p class="rating">
-                <i class="fa-solid fa-star-sharp"></i>
-                <i class="fa-solid fa-star-sharp"></i>
-                <i class="fa-solid fa-star-sharp"></i>
-                <i class="fa-solid fa-star-sharp"></i>
-                <i class="fa-solid fa-star-sharp"></i>
-              </p>
-              <h3>إليانور بينا</h3>
-              <h5>منسق التسويق</h5>
-              <p class="description">
-                يساعد المخططون الماليون الناس على المعرفة حول كيفية القيام بذلك
-                الاستثمار وتوفير أموالهم بالطريقة الأكثر فعالية للتخطيط يساعد
-                الأشخاص الأشخاص في معرفة كيفية القيام بذلك.
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!--================================
-        TESTIMONIAL END
-    =================================-->
+  
 
     <!--================================
         BRAND START
     =================================-->
-    <div class="tf__brand mt_120 xs_mt_80">
+    <div style="background-color: white;" class="tf__brand">
       <marquee
         direction="right"
         behavior="alternate"
         scrollamount="5"
         loop="infinite"
         class="marquee_animi_rtl"
-        >* بي أتش بي * بايثون * تصميم * عالم * تطوير</marquee
+        >* الضيافة   * التعليم * البناء * الأعمال * </marquee
       >
     </div>
     <!--================================
         BRAND END
     =================================-->
 
-    <!--================================
-        BLOG START
-    =================================-->
-    <section class="tf__blog pt_125 xs_pt_75 pb_40 xs_pb_0" id="blogs">
+   
+  <section class="tf__service pt_130 xs_pt_80" id="service">
       <div class="container">
         <div class="row">
-          <div class="col-xl-8 col-lg-9 mb_30">
-            <div class="tf__section_heading">
-              <h5 class="has-animation">مدونتي</h5>
+          <div class="col-lg-9 m-auto">
+            <div class="tf__section_heading mb_40">
+              <h5 class="has-animation">حافة لدينا</h5>
               <h2 class="has-animation">
-                إطلاق العنان لإمكانات علامتك التجارية الشخصية
+                ميزة إنتركات في التميز في مجال تقديم الطعام
               </h2>
             </div>
           </div>
         </div>
         <div class="row">
-          <div class="col-xl-4 col-md-6">
-            <div class="tf__slingle_blog fade_left" data-trigerId="blogs">
-              <a
-                href="blog_details.html"
-                class="tf__blog_img"
-                data-cursor="read <br> more"
-              >
+           <div class="col-lg-3 col-md-6">
+            <div class="tf__single_service fade_left" data-trigerId="service">
+              <span>
                 <img
-                  src="images/blog/1.jpg"
-                  alt="blog"
-                  class="img-fluid w-100"
+                  src="svg/website-design.svg"
+                  alt="service"
+                  class="svg w-100"
                 />
-              </a>
-              <div class="tf__blog_text">
-                <span>31 December 2022</span>
-                <ul>
-                  <li>
-                    <i class="fa-sharp fa-solid fa-circle-user"></i> بواسطة
-                    المشرف
-                  </li>
-                  <li>
-                    <i class="fa-sharp fa-solid fa-comments"></i> التعليقات (05)
-                  </li>
-                </ul>
-                <a href="blog_details.html">محفظتي الشخصية القياسية</a>
-              </div>
+              </span>
+              <h3>   ضمان الجودة
+
+</h3>
+              <p>
+تفانٍ لا يتزعزع في تقديم طعام وخدمة استثنائية لفعالياتك.              </p>
             </div>
           </div>
-          <div class="col-xl-4 col-md-6">
-            <div class="tf__slingle_blog fade_left" data-trigerId="blogs">
-              <a
-                href="blog_details.html"
-                class="tf__blog_img"
-                data-cursor="read <br> more"
-              >
+          <div class="col-lg-3 col-md-6">
+            <div class="tf__single_service fade_left" data-trigerId="service">
+              <span>
                 <img
-                  src="images/blog/2.jpg"
-                  alt="blog"
-                  class="img-fluid w-100"
+                  src="svg/website-design.svg"
+                  alt="service"
+                  class="svg w-100"
                 />
-              </a>
-              <div class="tf__blog_text">
-                <span>31 December 2022</span>
-                <ul>
-                  <li>
-                    <i class="fa-sharp fa-solid fa-circle-user"></i> بواسطة
-                    المشرف
-                  </li>
-                  <li>
-                    <i class="fa-sharp fa-solid fa-comments"></i> التعليقات (05)
-                  </li>
-                </ul>
-                <a href="blog_details.html">محفظتي الشخصية القياسية</a>
-              </div>
+              </span>
+              <h3>  فريق مخلص
+</h3>
+              <p>
+                بقيادة فريق شغوف، تميزنا وخبرتنا واحترافيتنا تميزنا في مجال التموين.
+              </p>
             </div>
           </div>
-          <div class="col-xl-4 col-md-6">
-            <div class="tf__slingle_blog fade_left" data-trigerId="blogs">
-              <a
-                href="blog_details.html"
-                class="tf__blog_img"
-                data-cursor="read <br> more"
-              >
+          <div class="col-lg-3 col-md-6">
+            <div class="tf__single_service fade_left" data-trigerId="service">
+              <span>
                 <img
-                  src="images/blog/3.jpg"
-                  alt="blog"
-                  class="img-fluid w-100"
+                  src="svg/logo-design.svg"
+                  alt="service"
+                  class="svg w-100"
                 />
-              </a>
-              <div class="tf__blog_text">
-                <span>31 December 2022</span>
-                <ul>
-                  <li>
-                    <i class="fa-sharp fa-solid fa-circle-user"></i> بواسطة
-                    المشرف
-                  </li>
-                  <li>
-                    <i class="fa-sharp fa-solid fa-comments"></i> التعليقات (05)
-                  </li>
-                </ul>
-                <a href="blog_details.html">محفظتي الشخصية القياسية</a>
-              </div>
+              </span>
+              <h3>  ضمان الجودة
+</h3>
+              <p>
+                تفانٍ لا يتزعزع في تقديم طعام وخدمة استثنائية لفعالياتك.
+              </p>
             </div>
           </div>
-          <div class="col-12">
-            <a href="blog_list.html" class="common_btn">More Blog +</a>
+          <div class="col-lg-3 col-md-6">
+            <div class="tf__single_service fade_left" data-trigerId="service">
+              <span>
+                <img
+                  src="svg/app-development.svg"
+                  alt="service"
+                  class="svg w-100"
+                />
+              </span>
+              <h3> الموقع القيادي
+ </h3>
+              <p>
+                30 عامًا خبرة في مجال التموين، مما يجعلنا متميزين في خدمات التموين والضيافة.
+              </p>
+            </div>
           </div>
         </div>
       </div>
     </section>
-    <!--================================
-        BLOG END
+     <!--================================
+        OUR PROCESS START
     =================================-->
-    <!--================================
-        SUBSCRIBE START
-    =================================-->
-    <div class="tf__subscribe" style="background: url(images/bg/subscribe.jpg)">
-      <div class="tf__subscribe_overlay pt_115 xs_pt_75 pb_120 xs_pb_80">
-        <div class="container">
-          <div class="row">
-            <div class="col-xl-6 col-lg-8 col-md-10 m-auto">
-              <div class="tf__subscribe_text">
-                <h3 class="has-animation">
-                  اشترك في النشرة الإخبارية الخاصة بي
-                </h3>
-                <form action="#" class="">
-                  <input type="text" placeholder="Enter Your Email" />
-                  <button type="submit" class="common_btn">أبلغ الآن</button>
-                </form>
-              </div>
-            </div>
-          </div>
+    <section class="tf__skills pt_115 xs_pt_75 pb_70 xs_pb_30 text-end" id="skills" dir="rtl">
+  <div class="container">
+    <!-- Section Heading -->
+    <div class="row">
+      <div class="col-xl-10 col-lg-8 m-auto mb_60">
+        <div class="tf__section_heading mb_40">
+          <h5 class="has-animation">عمليتنا</h5>
+          <h2 class="has-animation">
+            صنع النجاح من خلال عمليات <h2 style="color: #aad337;">مفصلة</h2>
+          </h2>
         </div>
       </div>
     </div>
+
+    <!-- Content -->
+    <div class="row align-items-center">
+      <!-- Text Column -->
+      <div class="col-lg-6">
+        <div class="tf__single_skills fade_bottom mb-4" data-trigerId="skills" data-stagger=".13">
+          <h3>التخطيط</h3>
+          <p>
+            تخطيط دقيق لفهم رؤيتكم وضمان تنفيذًا سلسًا وفعّالًا لفعالياتكم.
+          </p>
+        </div>
+
+        <div class="tf__single_skills fade_bottom mb-4" data-trigerId="skills" data-stagger=".25">
+          <h3>التنفيذ</h3>
+          <p>
+            تنفيذ دقيق واحترافي لخدمات التموين لتقديم تجربة طهي لا تُنسى لضيوفك.
+          </p>
+        </div>
+
+        <div class="tf__single_skills fade_bottom" data-trigerId="skills" data-stagger=".37">
+          <h3>التقييم</h3>
+          <p>
+            جمع التعليقات والرؤى لتحسين خدماتنا باستمرار وتجاوز التوقعات.
+          </p>
+        </div>
+      </div>
+
+      <!-- Image Column -->
+      <div class="col-lg-6 text-center">
+        <img src="images/process.jpg" alt="عملية تقديم الطعام" class="img-fluid rounded shadow" style="max-height: 450px; object-fit: cover;">
+      </div>
+    </div>
+  </div>
+</section>
+<section class="tf__contact pt_110 xs_pt_70 pb_120 xs_pb_80 text-end" dir="rtl">
+  <div class="container">
+    <!-- Section Heading -->
+    <div class="tf__section_heading pb_40">
+      <h5 class="has-animation">تواصل معنا</h5>
+      <h2 class="has-animation">
+        لنُبدع معًا <br> لحظات لا تُنسى
+        <span>اتصل بنا للحصول على خدمات تموين مُصممة خصيصًا لتناسب احتياجاتك ومناسباتك الفريدة</span>
+      </h2>
+    </div>
+
+    <div class="row">
+      <!-- Contact Form -->
+      <div class="col-xl-7 col-lg-7">
+        <div class="tf__contact_form_area">
+          <form action="#">
+            <div class="row">
+              <div class="col-xl-6">
+                <input type="text" placeholder="اسمك الكامل*" />
+              </div>
+              <div class="col-xl-6">
+                <input type="email" placeholder="بريدك الإلكتروني*" />
+              </div>
+              <div class="col-xl-6">
+                <input type="text" placeholder="رقم الهاتف*" />
+              </div>
+              <div class="col-xl-6">
+                <input type="text" placeholder="موقعك الإلكتروني (اختياري)" />
+              </div>
+              <div class="col-xl-12">
+                <textarea rows="7" placeholder="اكتب رسالتك هنا*"></textarea>
+                <button class="common_btn" type="submit">إرسال الرسالة</button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+
+      <!-- Contact Info -->
+      <div class="col-xl-5 col-lg-5">
+        <h3>الهاتف</h3>
+        <p>
+          +966 533013313 <br>
+          +966 533003442
+        </p>
+        <br>
+
+        <h3>العنوان</h3>
+        <p>
+          طريق الأمير محمد بن فهد، مبنى رقم 6923، حي البستان، الدمام <br>
+          المملكة العربية السعودية
+        </p>
+
+        <!-- Optional Google Map -->
+        <!--
+        <div class="tf__contact_map">
+          <iframe
+            src="https://www.google.com/maps/embed?...your-map-link..."
+            style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade">
+          </iframe>
+        </div>
+        -->
+      </div>
+    </div>
+  </div>
+</section>
+
+
     <!--================================
-SUBSCRIBE END
-=================================-->
+        SKILLS END
+    =================================-->
 
     <!--================================
         FOOTER START
     =================================-->
-    <footer class="footer" id="footer">
-      <div class="footer-container">
-        <div class="pt_120 xs_pt_80 sm_pt_80">
-          <div class="container">
-            <div class="row">
-              <div class="col-lg-4">
-                <div
-                  class="tf__footer_content fade_right"
-                  data-trigerId="footer"
-                  data-stagger=".25"
-                >
-                  <div class="icon">
-                    <div class="icon-contianer">
-                      <img
-                        src="svg/map.svg"
-                        alt="footer"
-                        class="img-fluid w-100 svg"
-                      />
-                    </div>
-                  </div>
-                  <div class="text">
-                    <h3>عنوان</h3>
-                    <p>2118 ثورنريدج سير. سيراكيوز، كونيتيكت 35624</p>
-                  </div>
+    <footer class="footer" id="footer" dir="rtl">
+  <div class="footer-container">
+    <div class="pt_120 xs_pt_80 sm_pt_80">
+      <div class="container">
+        <div class="row text-end">
+          <!-- Address -->
+          <div class="col-lg-4">
+            <div class="tf__footer_content fade_right" data-trigerId="footer" data-stagger=".25">
+              <div class="icon">
+                <div class="icon-contianer">
+                  <img src="svg/map.svg" alt="footer" class="img-fluid w-100 svg" />
                 </div>
               </div>
-              <div class="col-lg-4">
-                <div
-                  class="tf__footer_content fade_right"
-                  data-trigerId="footer"
-                  data-stagger=".25"
-                >
-                  <div class="icon">
-                    <div class="icon-contianer">
-                      <img
-                        src="svg/phone.svg"
-                        alt="footer"
-                        class="img-fluid w-100 svg"
-                      />
-                    </div>
-                  </div>
-                  <div class="text">
-                    <h3>دعونا نتحدث معنا</h3>
-                    <a href="callto:1234567890">(603) 555-0123</a>
-                    <a href="callto:1234567890">(603) 555-0123</a>
-                  </div>
-                </div>
-              </div>
-              <div class="col-lg-4">
-                <div
-                  class="tf__footer_content fade_right"
-                  data-trigerId="footer"
-                  data-stagger=".25"
-                >
-                  <div class="icon">
-                    <div class="icon-contianer">
-                      <img
-                        src="svg/envelope.svg"
-                        alt="footer"
-                        class="img-fluid w-100 svg"
-                      />
-                    </div>
-                  </div>
-                  <div class="text">
-                    <h3>أرسل لنا البريد الإلكتروني</h3>
-                    <a href="mailto:example@gmail.com"
-                      >deanna.curtis@example.com</a
-                    >
-                    <a href="mailto:example@gmail.com">curtis@example.com</a>
-                  </div>
-                </div>
+              <div class="text">
+                <h3>العنوان</h3>
+                <p>
+                  طريق الأمير محمد بن فهد، مبنى رقم 6923، حي البستان، الدمام <br>
+                  المملكة العربية السعودية
+                </p>
               </div>
             </div>
-            <div class="row">
-              <div class="col-12">
-                <div class="tf__footer_copyright">
-                  <p>© CodeeFly 2023 | كل الحقوق محفوظة</p>
-                  <ul>
-                    <li>
-                      <a href="#" class="text_hover_animaiton"
-                        >الترام والحالة</a
-                      >
-                    </li>
-                    <li>
-                      <a href="#" class="text_hover_animaiton"
-                        >سياسة الخصوصية</a
-                      >
-                    </li>
-                    <li>
-                      <a href="#" class="text_hover_animaiton">خريطة الموقع</a>
-                    </li>
-                  </ul>
+          </div>
+
+          <!-- Phone -->
+          <div class="col-lg-4">
+            <div class="tf__footer_content fade_right" data-trigerId="footer" data-stagger=".25">
+              <div class="icon">
+                <div class="icon-contianer">
+                  <img src="svg/phone.svg" alt="footer" class="img-fluid w-100 svg" />
                 </div>
+              </div>
+              <div class="text">
+                <h3>تواصل معنا</h3>
+                <a href="tel:+966533003442">+966 533003442</a>
+                <a href="tel:+966533013313">+966 533013313</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Email -->
+          <div class="col-lg-4">
+            <div class="tf__footer_content fade_right" data-trigerId="footer" data-stagger=".25">
+              <div class="icon">
+                <div class="icon-contianer">
+                  <img src="svg/envelope.svg" alt="footer" class="img-fluid w-100 svg" />
+                </div>
+              </div>
+              <div class="text">
+                <h3>أرسل لنا بريدًا</h3>
+                <a href="mailto:info@combocatering.com">info@combocatering.com</a>
               </div>
             </div>
           </div>
         </div>
+
+        <!-- Footer Bottom -->
+        <div class="row text-end">
+          <div class="col-12">
+            <div class="tf__footer_copyright">
+              <p>© CodeeFly 2023 | جميع الحقوق محفوظة</p>
+              <ul>
+                <li><a href="#" class="text_hover_animaiton">الشروط والأحكام</a></li>
+                <li><a href="#" class="text_hover_animaiton">سياسة الخصوصية</a></li>
+                <li><a href="#" class="text_hover_animaiton">خريطة الموقع</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        
       </div>
-    </footer>
+    </div>
+  </div>
+</footer>
+
     <!--================================
   FOOTER END
 =================================-->
