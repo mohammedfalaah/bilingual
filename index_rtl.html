@@ -22,70 +22,53 @@
   </head>
 
   <body>
-    <style>
- 
-</style>
+  
 
     <!--================================
         MENU START
     =================================-->
-    <nav dir="rtl" class="navbar navbar-expand-lg main_menu transparent-navbar fixed-top">
-      <div class="container ">
-        <a class="navbar-brand" href="index.html">
-          <img style="padding-top: 15px;" src="images/logo5.jpg" alt="ZYAN" class="img-fluid w-100" />
- <div class="language-switcher d-block d-md-none ms-auto d-flex align-items-center">
-  <a href="index.html" class="me-2 text-decoration-none">English</a> | 
-  <a href="index_rtl.html" class="ms-2 text-decoration-none">العربية</a>
-</div>
+ <nav dir="rtl" class="navbar navbar-expand-lg main_menu transparent-navbar fixed-top">
+  <div class="container d-flex justify-content-between align-items-start position-relative">
 
-        </a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNav"
-          aria-controls="navbarNav"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <i class="fa-sharp fa-regular fa-bars bar_icon"></i>
-          <i class="fa-regular fa-xmark close_icon"></i>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav m-auto">
-            <li class="nav-item">
-              <a class="nav-link text_hover_animaiton active" href="#"
-                >بيت </a>
-             
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text_hover_animaiton" href="#about">معلومات عنا</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text_hover_animaiton" href="#service"
-                >خدمات
-              </a>
-            </li>
-           
-          
-            <li class="nav-item">
-              <a class="nav-link text_hover_animaiton" href="#contact"
-                >اتصال
-              </a>
-            </li>
-          </ul>
-          <!-- <span
-            class="toggle_icon c-pointer"
-            data-bs-toggle="offcanvas"
-            data-bs-target="#offcanvasRight"
-            aria-controls="offcanvasRight"
-            ><i
-              class="fa-sharp fa-sharp fa-regular fa-bars bar_icon-staggered"
-            ></i
-          ></span> -->
-        </div>
-      </div>
-    </nav>
+    <!-- Language Switcher (Top Left on mobile) -->
+    <div style="    margin-left: 4.5rem !important;" class="language-switcher d-block d-md-none position-absolute start-0 mt-2 ">
+      <a href="index_rtl.html" class="text-decoration-none ms-1">العربية</a> |
+      <a href="index.html" class="text-decoration-none me-1">English</a>
+    </div>
+
+    <!-- Logo (centered or left) -->
+    <a class="navbar-brand mt-2" href="index.html">
+      <img src="images/logo5.jpg" alt="ZYAN" class="img-fluid" style="height: 40px;" />
+    </a>
+
+    <!-- Toggle Icon (Top Right) -->
+    <button
+      class="navbar-toggler mt-2"
+      type="button"
+      data-bs-toggle="collapse"
+      data-bs-target="#navbarNav"
+      aria-controls="navbarNav"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+      <i class="fa-sharp fa-regular fa-bars bar_icon"></i>
+      <i class="fa-regular fa-xmark close_icon"></i>
+    </button>
+
+    <!-- Collapsible Menu -->
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav m-auto">
+        <li class="nav-item"><a class="nav-link text_hover_animaiton active" href="#">بيت</a></li>
+        <li class="nav-item"><a class="nav-link text_hover_animaiton" href="#about">معلومات عنا</a></li>
+        <li class="nav-item"><a class="nav-link text_hover_animaiton" href="#service">خدمات</a></li>
+        <li class="nav-item"><a class="nav-link text_hover_animaiton" href="#contact">اتصال</a></li>
+      </ul>
+    </div>
+
+  </div>
+</nav>
+
+
 
     <div
       dir="rtl"
