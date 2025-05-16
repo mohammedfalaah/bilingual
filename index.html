@@ -36,12 +36,23 @@
     <!--================================
         MENU START
     =================================-->
-
+    
+  
     <nav class="navbar navbar-expand-lg main_menu transparent-navbar fixed-top">
+      
+      
   <div class="container">
+    
     <a class="navbar-brand custom-logo" href="index.html">
       <img style="padding-top: 15px;" src="images/logo5.jpg" alt="ZYAN" class="img-fluid" />
     </a>
+ <div class="language-switcher d-block d-lg-none ms-auto d-flex align-items-center">
+  <a href="?lang=en" class="me-2 text-decoration-none">English</a> | 
+  <a href="?lang=ar" class="ms-2 text-decoration-none">العربية</a>
+</div>
+
+
+   
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
       data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
       aria-label="Toggle navigation">
@@ -51,15 +62,9 @@
      <ul class="navbar-nav m-auto">
             <li class="nav-item">
               <a class="nav-link text_hover_animaiton active" href="#"
-                >Home <i class="far fa-angle-down"></i
-              ></a>
-              <ul class="droap_menu">
-                <li><a href="index.html">Home 1</a></li>
-                <li><a href="index_2.html">Home 2</a></li>
-                <li><a href="index_3.html">Home 3</a></li>
-                <li><a href="index_4.html">Home 4</a></li>
-                <li><a href="index_rtl.html">Home RTL</a></li>
-              </ul>
+                >Home 
+              </a>
+             
             </li>
             <li class="nav-item">
               <a class="nav-link text_hover_animaiton" href="#about"
@@ -71,32 +76,24 @@
                 >services
               </a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link text_hover_animaiton" href="#projects"
-                >Projects
-              </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text_hover_animaiton" href="blog_list.html"
-                >blog <i class="far fa-angle-down"></i
-              ></a>
-              <ul class="droap_menu">
-                <li>
-                  <a href="blog_list.html">Blog List</a>
-                </li>
-                <li><a href="blog_details.html">Blog Details</a></li>
-              </ul>
-            </li>
+           
+           
             <li class="nav-item">
               <a class="nav-link text_hover_animaiton" href="contact.html"
                 >contact
               </a>
             </li>
+     
+ 
+           
           </ul>
-      <!-- <span class="toggle_icon c-pointer" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight"
-        aria-controls="offcanvasRight">
-        <i class="fa fa-bars"></i>
-      </span> -->
+          <div class="language-switcher ms-auto d-flex align-items-center">
+  <a href="index.html" class="me-2 text-decoration-none">English</a> | 
+  <a href="index_rtl.html" class="ms-2 text-decoration-none">العربية</a>
+</div>
+
+
+     
     </div>
   </div>
 </nav>
@@ -294,7 +291,7 @@
 Combo Catering Company, based in Saudi Arabia since 2001, offers exquisite catering services tailored for various sectors including hospitality, business, construction, education, defense, and government entities.
 
               </p>
-              <a style="background: #9bcc5b; border-radius: 7px; margin-top: 20px;" class="common_btn" href="#"
+              <a style="background: #9bcc5b; border-radius: 7px; margin-top: 20px;" class="common_btn" href="about.html"
                 >Read More</i
               ></a>
             </div>
@@ -343,7 +340,7 @@ Combo Catering Company, based in Saudi Arabia since 2001, offers exquisite cater
           <div class="col-xl-4 col-md-6">
             <div class="tf__slingle_blog fade_left" data-trigerId="blogs">
               <a
-                href="blog_details.html"
+               href="#service"
                 class="tf__blog_img"
                 data-cursor="read <br> more"
               >
@@ -360,7 +357,7 @@ Combo Catering Company, based in Saudi Arabia since 2001, offers exquisite cater
                   <li>
                   </li>
                 </ul>
-                <a href="blog_details.html"
+                <a href="#service"
                   >Hospitality</a
                 >
                 <p style="text-wrap:no-wrap ;">Elegant dining experiences for hotels and events</p>
@@ -370,7 +367,7 @@ Combo Catering Company, based in Saudi Arabia since 2001, offers exquisite cater
           <div class="col-xl-4 col-md-6">
             <div class="tf__slingle_blog fade_left" data-trigerId="blogs">
               <a
-                href="blog_details.html"
+               href="#service"
                 class="tf__blog_img"
                 data-cursor="read <br> more"
               >
@@ -387,7 +384,7 @@ Combo Catering Company, based in Saudi Arabia since 2001, offers exquisite cater
                   <li>
                   </li>
                 </ul>
-                <a href="blog_details.html"
+                <a href="#service"
                   >Business</a
                   
                 >
@@ -398,7 +395,7 @@ Combo Catering Company, based in Saudi Arabia since 2001, offers exquisite cater
           <div class="col-xl-4 col-md-6">
             <div class="tf__slingle_blog fade_left" data-trigerId="blogs">
               <a
-                href="blog_details.html"
+                href="#service"
                 class="tf__blog_img"
                 data-cursor="read <br> more"
               >
@@ -415,7 +412,7 @@ Combo Catering Company, based in Saudi Arabia since 2001, offers exquisite cater
                   <li>
                   </li>
                 </ul>
-                <a href="blog_details.html"
+                <a href="#service"
                   >Construction</a
                 >
                 <p>On-site catering for construction projects</p>
@@ -804,7 +801,7 @@ Prince Mohammed bin Fahad Road,Building No. 6923, Al Bastan District,Dammam <br>
     <!--================================
         FOOTER START
     =================================-->
-    <footer class="footer" id="footer">
+   <footer class="footer" id="footer">
       <div class="footer-container">
         <div class="pt_120 xs_pt_80 sm_pt_80">
           <div class="container">
@@ -826,7 +823,10 @@ Prince Mohammed bin Fahad Road,Building No. 6923, Al Bastan District,Dammam <br>
                   </div>
                   <div class="text">
                     <h3>Address</h3>
-                    <p>2118 Thornridge Cir. Syracuse, Connecticut 35624</p>
+                    <p>
+                     
+Prince Mohammed bin Fahad Road,Building No. 6923, Al Bastan District,Dammam <br> Kingdom of Saudi Arabia
+</p>
                   </div>
                 </div>
               </div>
@@ -847,8 +847,8 @@ Prince Mohammed bin Fahad Road,Building No. 6923, Al Bastan District,Dammam <br>
                   </div>
                   <div class="text">
                     <h3>Lets talk us</h3>
-                    <a href="callto:1234567890">(603) 555-0123</a>
-                    <a href="callto:1234567890">(603) 555-0123</a>
+                    <a href="callto:+966 533003442">+966 533003442</a>
+                    <a href="callto: +966 533013313"> +966 533013313</a>
                   </div>
                 </div>
               </div>
@@ -869,10 +869,9 @@ Prince Mohammed bin Fahad Road,Building No. 6923, Al Bastan District,Dammam <br>
                   </div>
                   <div class="text">
                     <h3>Send us email</h3>
-                    <a href="mailto:example@gmail.com"
-                      >deanna.curtis@example.com</a
+                    <a href="mailto:info@combocatering.com"
+                      >info@combocatering.com</a
                     >
-                    <a href="mailto:example@gmail.com">curtis@example.com</a>
                   </div>
                 </div>
               </div>
@@ -880,20 +879,20 @@ Prince Mohammed bin Fahad Road,Building No. 6923, Al Bastan District,Dammam <br>
             <div class="row">
               <div class="col-12">
                 <div class="tf__footer_copyright">
-                  <p>© COMBO CATERING COMPANY 2025 | All Rights Reserved</p>
+                  <p>© CodeeFly 2023 | All Rights Reserved</p>
                   <ul>
                     <li>
                       <a href="#" class="text_hover_animaiton"
-                        >Home</a
+                        >Trams & Condition</a
                       >
                     </li>
                     <li>
                       <a href="#" class="text_hover_animaiton"
-                        >About</a
+                        >Privacy Policy</a
                       >
                     </li>
                     <li>
-                      <a href="#" class="text_hover_animaiton">Services</a>
+                      <a href="#" class="text_hover_animaiton">Sitemap</a>
                     </li>
                   </ul>
                 </div>
