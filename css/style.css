@@ -430,7 +430,7 @@ button {
 
 .main_menu .navbar-nav .nav-item .nav-link:hover,
 .main_menu .navbar-nav .nav-item .nav-link.active {
-  color: #aad337;
+  color: #dbb851;
 }
 
 .main_menu .toggle_icon {
@@ -627,7 +627,7 @@ button {
   height: 40px;
   line-height: 40px;
   text-align: center;
-  background: var(--colorPrimary);
+  background: white;
   padding: 0;
   font-size: 16px;
   margin-right: 12px;
@@ -1356,7 +1356,7 @@ main {
   justify-content: center;
   width: 100px;
   height: 100px;
-  background: var(--colorPrimary);
+  background: #F6F6F6;
   border-radius: 50%;
   padding: 20px;
   margin-right: 35px;
@@ -2706,7 +2706,7 @@ main {
   display: -webkit-box;
   display: -ms-flexbox;
   overflow: hidden;
-  text-shadow: 0 16px 0 var(--colorPrimary);
+  text-shadow: 0 16px 0 rgb(189, 89, 11);
   display: flex;
 }
 
