@@ -133,3 +133,9 @@ p {
 .ball-drag {
   flex-direction: row-reverse;
 }
+
+ @media (max-width: 767.98px) {
+    .hide-mob {
+      display: none;
+    }
+  }
