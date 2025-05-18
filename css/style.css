@@ -22,6 +22,7 @@ CSS INDEX
 ===============================*/
 @import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&amp;display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&amp;display=swap");
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@100;200;300;400;500;600;700&display=swap');
 
 :root {
   --color-primary: #FF3600;
@@ -412,11 +413,10 @@ button {
 
 .main_menu .navbar-nav .nav-item .nav-link {
   color: var(--colorWhite);
-  font-size: 14px;
+  font-size: 15px;
   font-weight: 500;
   text-transform: uppercase;
   margin: 0;
-  line-height: 12px;
   transition: all linear 0.3s;
   font-family: var(--PrimaryFont);
   letter-spacing: 1px;
@@ -706,7 +706,7 @@ button {
 }
 
 .tf__banner_text h1 span {
-  color: #aad337;
+  color: #e98024;
 }
 .cd-headline.clip .cd-words-wrapper::after {
   content: "";
