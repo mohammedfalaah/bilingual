@@ -101,6 +101,7 @@ h6,
 * {
   margin: 0;
   padding: 0;
+  font-family: "IBM Plex Sans Arabic", sans-serif;
   /* overflow-y: hidden; */
 }
 html {
