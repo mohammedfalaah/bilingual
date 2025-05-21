@@ -191,7 +191,7 @@ button {
   justify-content: center;
   align-items: center;
   gap: 10px;
-  background: black;
+  background: #2a3513;
   color: white;
   font-weight: 500;
   transition: all 0.3s linear 0s;
@@ -847,7 +847,7 @@ button {
   content: "";
   width: 100px;
   height: 2px;
-  background: var(--bodyColor);
+  background:#dcb754;
   top: 10px;
   left: 0;
 }
