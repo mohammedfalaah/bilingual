@@ -799,7 +799,7 @@ button {
 .tf__single_service {
   padding: 0px 40px 40px 40px;
   position: relative;
-  border: 3px solid #191919;
+  /* border: 3px solid #191919; */
   margin-top: 62px;
 }
 
